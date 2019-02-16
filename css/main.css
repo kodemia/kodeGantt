@@ -1,0 +1,22 @@
+.navbar img {
+  max-width: 50px;
+}
+
+#calendar-accordion .day-schedule {
+  flex-shrink: 0;
+  margin-left: 5px;
+  max-width: calc(16% - 5px);
+}
+#calendar-accordion .day-schedule .card-body {
+  flex: 0;
+  font-size: 12px;
+}
+#calendar-accordion .day-schedule .card-body .card-title {
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+#calendar-accordion .day-schedule:first-of-type {
+  margin-left: 0px;
+}
+
+/*# sourceMappingURL=main.css.map */
