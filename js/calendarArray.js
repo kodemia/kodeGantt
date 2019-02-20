@@ -338,7 +338,7 @@ let calendarActivities = {
 	],
 	"Semana 8": [
 	    {
-	        date: "20 de Mayo", 
+	        date: "13 de Mayo", 
 	        topic: "Backend",
 	        subthemes: [
 	            "Marco teórico Node.js",
@@ -352,13 +352,73 @@ let calendarActivities = {
 
 	        ]
 	    }, {
-	    	date:"21 de Mayo",
+	    	date:"14 de Mayo",
 	    	topic:"Backend",
 	    	subthemes:[
 	    		"Callbacks",
 				"Promesas",
 				"Async and wait",
 				"API Filesystem"
+
+	    	]
+	    }, {
+	    	date:"15 de Mayo",
+	    	topic:"Backend",
+	    	subthemes:[
+	    		"Módulo HTTP",
+				"Hola mundo en express",
+				"Archivos estáticos en express (static)",
+				"Middlewares"
+
+	    	]
+	    } , {
+	    	date:"16 de Mayo",
+	    	topic:"Backend",
+	    	subthemes:[
+	    		"CRUD con express (courses, mentors, koders)",
+				"URI params",
+				"Routes"
+
+	    	]
+	    } , {
+	    	date:"17 de Mayo",
+	    	topic:"Rally",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    }, {
+	    	date:"18 de Mayo",
+	    	topic:"Por definir",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    }
+	],
+	"Semana 9": [
+	    {
+	        date: "20 de Mayo", 
+	        topic: "Backend",
+	        subthemes: [
+	            "Hola mundo en NODE",
+				"Crear un archivo", 
+				"Agregar contenido a un archivo",
+				"Remover archivo",
+				"Crear carpeta",
+				"Borrar carpeta con contenido",
+				"Repaso de Strings",
+				"Parse CSV"
+
+	        ]
+	    }, {
+	    	date:"21 de Mayo",
+	    	topic:"Backend",
+	    	subthemes:[
+	    		"¿Qué son las bases de datos?",
+				"Tipos de bases de datos.",
+				"BDMS",
+				"Ventajas y desventajas de las bases de datos relacionales y no relacionales. ",
+				"Ejemplo de una base de datos relacional con MySQL",
+				"Resolución de ejercicio parse CSV (guardar en JSON)"
 
 	    	]
 	    }, {
@@ -369,15 +429,13 @@ let calendarActivities = {
 				"Hola mundo en express",
 				"Archivos estáticos en express (static)",
 				"Middlewares"
-
 	    	]
 	    } , {
 	    	date:"23 de Mayo",
 	    	topic:"Backend",
 	    	subthemes:[
-	    		"CRUD con express (courses, mentors, koders)",
-				"URI params",
-				"Routes"
+	    		"Instalación de MongoDB",
+				"Creación de una base de datos."
 
 	    	]
 	    } , {
@@ -394,92 +452,43 @@ let calendarActivities = {
 	    	]
 	    }
 	],
-	"Semana 9": [
-	    {
-	        date: "26 de Mayo", 
-	        topic: "Backend",
-	        subthemes: [
-	            "¿Qué son las bases de datos?",
-				"Tipos de bases de datos.",
-				"BDMS",
-				"Ventajas y desventajas de las bases de datos relacionales y no relacionales",
-				"Ejemplo de una base de datos relacional con MySQL",
-				"Resolución de ejercicio parse CSV (guardar en JSON)"
-	        ]
-	    }, {
-	    	date:"27 de Mayo",
-	    	topic:"Backend",
-	    	subthemes:[
-	    		"Instalación de MongoDB",
-				"Creación de una base de datos"
-	    	]
-	    }, {
-	    	date:"28 de Mayo",
-	    	topic:"Backend",
-	    	subthemes:[
-	    		"Módulo HTTP",
-				"Hola mundo en express",
-				"Archivos estáticos en express (static)",
-				"Middlewares"
-	    	]
-	    } , {
-	    	date:"29 de Mayo",
-	    	topic:"Backend",
-	    	subthemes:[
-	    		"Estructuración de un proyecto con Express y Mongodb",
-				"Verbos en express.js",
-				"CORS"
-	    	]
-	    } , {
-	    	date:"30 de Mayo",
-	    	topic:"Rally",
-	    	subthemes:[
-	    		"N/A"
-	    	]
-	    }, {
-	    	date:"31 de Mayo",
-	    	topic:"Por definir",
-	    	subthemes:[
-	    		"N/A"
-	    	]
-	    }
-	],
 	"Semana 10": [
 	    {
 	        date: "27 de Mayo", 
 	        topic: "Backend",
 	        subthemes: [
-	            "Marco teórico Node.js",
-	            "Creación de un proyecto en Node",
-	            "Estilos de código",
-				"Comandos en NODE",
-				"Instalación de dependencias globales y locales",
-				"Dependencias funcionales y de desarrollo", 
-				"Ignorar archivos al subir a GIT",
-				"Deconstrucción"
+			  	"Estructuración de un proyecto con Express y Mongodb.",
+				"Verbos en express.js",
+				"CORS"
 
-	        ]
+			]
 	    }, {
 	    	date:"28 de Mayo",
 	    	topic:"Backend",
-	    	subthemes:[
-	    		"Callbacks",
-				"Promesas",
-				"Async and wait",
-				"API Filesystem"
+	    	subthemes: [
+			   	"Mongoose (conexión a una base de datos)",
+				"Models (estructuración de los datos de un modelo)",
+				"express.Router"
 
-	    	]
+			]
 	    }, {
 	    	date:"29 de Mayo",
 	    	topic:"Backend",
 	    	subthemes:[
-	    		"N/A"
+	    		"Middlewares",
+				"JWT",
+				"Uso de bcrypt.js para la encriptación del password."
+
 	    	]
 	    } , {
 	    	date:"30 de Mayo",
 	    	topic:"Backend",
 	    	subthemes:[
-	    		"N/A"
+	    		"Mongoose (conexión a una base de datos)",
+				"Models (estructuración de los datos de un modelo)",
+				"express.Router",
+				"Obtener, crear, borrar y buscar datos de una base de datos a través de la creación de sus respectivas funciones. "
+
 	    	]
 	    } , {
 	    	date:"31 de Mayo",
