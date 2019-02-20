@@ -43,7 +43,7 @@ let calendarActivities = {
 	    	]
 	    }
 	],
-	 "Semana 2": [
+	"Semana 2": [
 	    {
 	        date: "25 de Marzo", 
 	        topic: "Introducción a HTML y CSS",
@@ -438,6 +438,57 @@ let calendarActivities = {
 	    	]
 	    }, {
 	    	date:"31 de Mayo",
+	    	topic:"Por definir",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    }
+	],
+	"Semana 10": [
+	    {
+	        date: "27 de Mayo", 
+	        topic: "Backend",
+	        subthemes: [
+	            "Marco teórico Node.js",
+	            "Creación de un proyecto en Node",
+	            "Estilos de código",
+				"Comandos en NODE",
+				"Instalación de dependencias globales y locales",
+				"Dependencias funcionales y de desarrollo", 
+				"Ignorar archivos al subir a GIT",
+				"Deconstrucción"
+
+	        ]
+	    }, {
+	    	date:"28 de Mayo",
+	    	topic:"Backend",
+	    	subthemes:[
+	    		"Callbacks",
+				"Promesas",
+				"Async and wait",
+				"API Filesystem"
+
+	    	]
+	    }, {
+	    	date:"29 de Mayo",
+	    	topic:"Backend",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    } , {
+	    	date:"30 de Mayo",
+	    	topic:"Backend",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    } , {
+	    	date:"31 de Mayo",
+	    	topic:"Rally",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    }, {
+	    	date:"01 de Junio",
 	    	topic:"Por definir",
 	    	subthemes:[
 	    		"N/A"
