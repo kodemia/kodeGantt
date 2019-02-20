@@ -548,39 +548,35 @@ let calendarActivities = {
 	"Semana 12": [
 	    {
 	        date: "10 de Junio", 
-	        topic: "Backend",
+	        topic: "IBM Cloud",
 	        subthemes: [
-	            "Marco teórico Node.js",
-	            "Creación de un proyecto en Node",
-	            "Estilos de código",
-				"Comandos en NODE",
-				"Instalación de dependencias globales y locales",
-				"Dependencias funcionales y de desarrollo", 
-				"Ignorar archivos al subir a GIT",
-				"Deconstrucción"
+	            "Marco teórico de Cloud",
+	            "Arquitectura en la nube",
+	            "Cloud Foundry",
+	            "Despliegue en una región",
+	            "Despliegue en 2 regiones",
+	            "Load Balancing",
+	            "Autoscaling"
 
 	        ]
 	    }, {
 	    	date:"11 de Junio",
-	    	topic:"Backend",
+	    	topic:"IBM Cloud",
 	    	subthemes:[
-	    		"Callbacks",
-				"Promesas",
-				"Async and wait",
-				"API Filesystem"
+	    		"Dev Ops: Automatización en la nube"
 
 	    	]
 	    }, {
 	    	date:"12 de Junio",
-	    	topic:"Backend",
+	    	topic:"IBM Cloud",
 	    	subthemes:[
-	    		"N/A"
+	    		"Cloudant: IBM NoSQL"
 	    	]
 	    } , {
 	    	date:"13 de Junio",
-	    	topic:"Backend",
+	    	topic:"IBM Cloud",
 	    	subthemes:[
-	    		"N/A"
+	    		"Watson, Inteligencia Artificial aplicada"
 	    	]
 	    } , {
 	    	date:"14 de Junio",
@@ -599,39 +595,36 @@ let calendarActivities = {
 	"Semana 13": [
 	    {
 	        date: "17 de Junio", 
-	        topic: "Backend",
+	        topic: "ReactJS",
 	        subthemes: [
-	            "Marco teórico Node.js",
-	            "Creación de un proyecto en Node",
-	            "Estilos de código",
-				"Comandos en NODE",
-				"Instalación de dependencias globales y locales",
-				"Dependencias funcionales y de desarrollo", 
-				"Ignorar archivos al subir a GIT",
-				"Deconstrucción"
+	            "Marco teórico MVC",
+	            "Introducción a ReactJS"
 
 	        ]
 	    }, {
 	    	date:"18 de Junio",
-	    	topic:"Backend",
+	    	topic:"ReactJS",
 	    	subthemes:[
-	    		"Callbacks",
-				"Promesas",
-				"Async and wait",
-				"API Filesystem"
-
+	    		"Paradigma reactivo en React",
+				"Componentes en react"
 	    	]
 	    }, {
 	    	date:"19 de Junio",
-	    	topic:"Backend",
+	    	topic:"ReactJS",
 	    	subthemes:[
-	    		"N/A"
+	    		"Concepto de React",
+				"DOM virtual",
+				"Uso de estilos (styles) en React" ,
+				"Uso de JSX",
+				"Funciones en React "
 	    	]
 	    } , {
 	    	date:"20 de Junio",
-	    	topic:"Backend",
+	    	topic:"ReactJS",
 	    	subthemes:[
-	    		"N/A"
+	    		"Funciones en React, continuación",
+				"Clases en react",
+				"Props"
 	    	]
 	    } , {
 	    	date:"21 de Junio",
@@ -650,7 +643,7 @@ let calendarActivities = {
 	"Semana 14": [
 	    {
 	        date: "24 de Junio", 
-	        topic: "Backend",
+	        topic: "ReactJS",
 	        subthemes: [
 	            "Marco teórico Node.js",
 	            "Creación de un proyecto en Node",
@@ -664,7 +657,7 @@ let calendarActivities = {
 	        ]
 	    }, {
 	    	date:"25 de Junio",
-	    	topic:"Backend",
+	    	topic:"ReactJS",
 	    	subthemes:[
 	    		"Callbacks",
 				"Promesas",
@@ -674,13 +667,15 @@ let calendarActivities = {
 	    	]
 	    }, {
 	    	date:"26 de Junio",
-	    	topic:"Backend",
+	    	topic:"ReactJS",
 	    	subthemes:[
-	    		"N/A"
+	    		"Life cycle",
+				"Setstate"
+
 	    	]
 	    } , {
 	    	date:"27 de Junio",
-	    	topic:"Backend",
+	    	topic:"ReactJS",
 	    	subthemes:[
 	    		"N/A"
 	    	]
@@ -701,7 +696,7 @@ let calendarActivities = {
 	"Semana 15": [
 	    {
 	        date: "01 de Julio", 
-	        topic: "Backend",
+	        topic: "ReactJS",
 	        subthemes: [
 	            "Marco teórico Node.js",
 	            "Creación de un proyecto en Node",
@@ -715,7 +710,7 @@ let calendarActivities = {
 	        ]
 	    }, {
 	    	date:"02 de Julio",
-	    	topic:"Backend",
+	    	topic:"ReactJS",
 	    	subthemes:[
 	    		"Callbacks",
 				"Promesas",
@@ -725,13 +720,13 @@ let calendarActivities = {
 	    	]
 	    }, {
 	    	date:"03 de Julio",
-	    	topic:"Backend",
+	    	topic:"ReactJS",
 	    	subthemes:[
 	    		"N/A"
 	    	]
 	    } , {
 	    	date:"04 de Julio",
-	    	topic:"Backend",
+	    	topic:"ReactJS",
 	    	subthemes:[
 	    		"N/A"
 	    	]
@@ -752,43 +747,32 @@ let calendarActivities = {
 	"Semana 16": [
 	    {
 	        date: "08 de Julio", 
-	        topic: "Backend",
+	        topic: "Desafío Final",
 	        subthemes: [
-	            "Marco teórico Node.js",
-	            "Creación de un proyecto en Node",
-	            "Estilos de código",
-				"Comandos en NODE",
-				"Instalación de dependencias globales y locales",
-				"Dependencias funcionales y de desarrollo", 
-				"Ignorar archivos al subir a GIT",
-				"Deconstrucción"
+	            "N/A"
 
 	        ]
 	    }, {
 	    	date:"09 de Julio",
-	    	topic:"Backend",
+	    	topic:"Desafío Final",
 	    	subthemes:[
-	    		"Callbacks",
-				"Promesas",
-				"Async and wait",
-				"API Filesystem"
-
+	    		"N/A"
 	    	]
 	    }, {
 	    	date:"10 de Julio",
-	    	topic:"Backend",
+	    	topic:"Desafío Final",
 	    	subthemes:[
 	    		"N/A"
 	    	]
 	    } , {
 	    	date:"11 de Julio",
-	    	topic:"Backend",
+	    	topic:"Desafío Final",
 	    	subthemes:[
 	    		"N/A"
 	    	]
 	    } , {
 	    	date:"12 de Julio",
-	    	topic:"Rally",
+	    	topic:"Desafío Final",
 	    	subthemes:[
 	    		"N/A"
 	    	]
@@ -803,49 +787,32 @@ let calendarActivities = {
 	"Semana 17": [
 	    {
 	        date: "15 de Julio", 
-	        topic: "Backend",
+	        topic: "Desafío Final",
 	        subthemes: [
-	            "Marco teórico Node.js",
-	            "Creación de un proyecto en Node",
-	            "Estilos de código",
-				"Comandos en NODE",
-				"Instalación de dependencias globales y locales",
-				"Dependencias funcionales y de desarrollo", 
-				"Ignorar archivos al subir a GIT",
-				"Deconstrucción"
+	            "N/A"
 
 	        ]
 	    }, {
 	    	date:"16 de Julio",
-	    	topic:"Backend",
+	    	topic:"Desafío Final",
 	    	subthemes:[
-	    		"Callbacks",
-				"Promesas",
-				"Async and wait",
-				"API Filesystem"
-
+	    		"N/A"
 	    	]
 	    }, {
 	    	date:"17 de Julio",
-	    	topic:"Backend",
+	    	topic:"Desafío Final",
 	    	subthemes:[
 	    		"N/A"
 	    	]
 	    } , {
 	    	date:"18 de Julio",
-	    	topic:"Backend",
+	    	topic:"Desafío Final",
 	    	subthemes:[
 	    		"N/A"
 	    	]
 	    } , {
 	    	date:"19 de Julio",
-	    	topic:"Rally",
-	    	subthemes:[
-	    		"N/A"
-	    	]
-	    }, {
-	    	date:"20 de Julio",
-	    	topic:"Por definir",
+	    	topic:"Clausura",
 	    	subthemes:[
 	    		"N/A"
 	    	]
