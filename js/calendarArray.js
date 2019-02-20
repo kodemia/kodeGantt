@@ -386,5 +386,56 @@ let calendarActivities = {
 	    		"N/A"
 	    	]
 	    }
+	],
+	"Semana 9": [
+	    {
+	        date: "20 de Mayo", 
+	        topic: "Backend",
+	        subthemes: [
+	            "Marco teórico Node.js",
+	            "Creación de un proyecto en Node",
+	            "Estilos de código",
+				"Comandos en NODE",
+				"Instalación de dependencias globales y locales",
+				"Dependencias funcionales y de desarrollo", 
+				"Ignorar archivos al subir a GIT",
+				"Deconstrucción"
+
+	        ]
+	    }, {
+	    	date:"21 de Mayo",
+	    	topic:"Backend",
+	    	subthemes:[
+	    		"Callbacks",
+				"Promesas",
+				"Async and wait",
+				"API Filesystem"
+
+	    	]
+	    }, {
+	    	date:"22 de Mayo",
+	    	topic:"Backend",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    } , {
+	    	date:"23 de Mayo",
+	    	topic:"Backend",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    } , {
+	    	date:"24 de Mayo",
+	    	topic:"Rally",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    }, {
+	    	date:"25 de Mayo",
+	    	topic:"Por definir",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    }
 	]
 }
