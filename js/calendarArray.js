@@ -488,5 +488,362 @@ let calendarActivities = {
 	    		"N/A"
 	    	]
 	    }
+	],
+	"Semana 11": [
+	    {
+	        date: "03 de Junio", 
+	        topic: "Backend",
+	        subthemes: [
+	            "Marco teórico Node.js",
+	            "Creación de un proyecto en Node",
+	            "Estilos de código",
+				"Comandos en NODE",
+				"Instalación de dependencias globales y locales",
+				"Dependencias funcionales y de desarrollo", 
+				"Ignorar archivos al subir a GIT",
+				"Deconstrucción"
+
+	        ]
+	    }, {
+	    	date:"04 de Junio",
+	    	topic:"Backend",
+	    	subthemes:[
+	    		"Callbacks",
+				"Promesas",
+				"Async and wait",
+				"API Filesystem"
+
+	    	]
+	    }, {
+	    	date:"05 de Junio",
+	    	topic:"Backend",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    } , {
+	    	date:"06 de Junio",
+	    	topic:"Backend",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    } , {
+	    	date:"07 de Junio",
+	    	topic:"Rally",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    }, {
+	    	date:"08 de Junio",
+	    	topic:"Por definir",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    }
+	],
+	"Semana 12": [
+	    {
+	        date: "10 de Junio", 
+	        topic: "Backend",
+	        subthemes: [
+	            "Marco teórico Node.js",
+	            "Creación de un proyecto en Node",
+	            "Estilos de código",
+				"Comandos en NODE",
+				"Instalación de dependencias globales y locales",
+				"Dependencias funcionales y de desarrollo", 
+				"Ignorar archivos al subir a GIT",
+				"Deconstrucción"
+
+	        ]
+	    }, {
+	    	date:"11 de Junio",
+	    	topic:"Backend",
+	    	subthemes:[
+	    		"Callbacks",
+				"Promesas",
+				"Async and wait",
+				"API Filesystem"
+
+	    	]
+	    }, {
+	    	date:"12 de Junio",
+	    	topic:"Backend",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    } , {
+	    	date:"13 de Junio",
+	    	topic:"Backend",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    } , {
+	    	date:"14 de Junio",
+	    	topic:"Rally",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    }, {
+	    	date:"15 de Junio",
+	    	topic:"Por definir",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    }
+	],
+	"Semana 13": [
+	    {
+	        date: "17 de Junio", 
+	        topic: "Backend",
+	        subthemes: [
+	            "Marco teórico Node.js",
+	            "Creación de un proyecto en Node",
+	            "Estilos de código",
+				"Comandos en NODE",
+				"Instalación de dependencias globales y locales",
+				"Dependencias funcionales y de desarrollo", 
+				"Ignorar archivos al subir a GIT",
+				"Deconstrucción"
+
+	        ]
+	    }, {
+	    	date:"18 de Junio",
+	    	topic:"Backend",
+	    	subthemes:[
+	    		"Callbacks",
+				"Promesas",
+				"Async and wait",
+				"API Filesystem"
+
+	    	]
+	    }, {
+	    	date:"19 de Junio",
+	    	topic:"Backend",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    } , {
+	    	date:"20 de Junio",
+	    	topic:"Backend",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    } , {
+	    	date:"21 de Junio",
+	    	topic:"Rally",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    }, {
+	    	date:"22 de Junio",
+	    	topic:"Por definir",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    }
+	],
+	"Semana 14": [
+	    {
+	        date: "24 de Junio", 
+	        topic: "Backend",
+	        subthemes: [
+	            "Marco teórico Node.js",
+	            "Creación de un proyecto en Node",
+	            "Estilos de código",
+				"Comandos en NODE",
+				"Instalación de dependencias globales y locales",
+				"Dependencias funcionales y de desarrollo", 
+				"Ignorar archivos al subir a GIT",
+				"Deconstrucción"
+
+	        ]
+	    }, {
+	    	date:"25 de Junio",
+	    	topic:"Backend",
+	    	subthemes:[
+	    		"Callbacks",
+				"Promesas",
+				"Async and wait",
+				"API Filesystem"
+
+	    	]
+	    }, {
+	    	date:"26 de Junio",
+	    	topic:"Backend",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    } , {
+	    	date:"27 de Junio",
+	    	topic:"Backend",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    } , {
+	    	date:"28 de Junio",
+	    	topic:"Rally",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    }, {
+	    	date:"29 de Junio",
+	    	topic:"Por definir",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    }
+	],
+	"Semana 15": [
+	    {
+	        date: "01 de Julio", 
+	        topic: "Backend",
+	        subthemes: [
+	            "Marco teórico Node.js",
+	            "Creación de un proyecto en Node",
+	            "Estilos de código",
+				"Comandos en NODE",
+				"Instalación de dependencias globales y locales",
+				"Dependencias funcionales y de desarrollo", 
+				"Ignorar archivos al subir a GIT",
+				"Deconstrucción"
+
+	        ]
+	    }, {
+	    	date:"02 de Julio",
+	    	topic:"Backend",
+	    	subthemes:[
+	    		"Callbacks",
+				"Promesas",
+				"Async and wait",
+				"API Filesystem"
+
+	    	]
+	    }, {
+	    	date:"03 de Julio",
+	    	topic:"Backend",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    } , {
+	    	date:"04 de Julio",
+	    	topic:"Backend",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    } , {
+	    	date:"05 de Julio",
+	    	topic:"Rally",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    }, {
+	    	date:"06 de Julio",
+	    	topic:"Por definir",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    }
+	],
+	"Semana 16": [
+	    {
+	        date: "08 de Julio", 
+	        topic: "Backend",
+	        subthemes: [
+	            "Marco teórico Node.js",
+	            "Creación de un proyecto en Node",
+	            "Estilos de código",
+				"Comandos en NODE",
+				"Instalación de dependencias globales y locales",
+				"Dependencias funcionales y de desarrollo", 
+				"Ignorar archivos al subir a GIT",
+				"Deconstrucción"
+
+	        ]
+	    }, {
+	    	date:"09 de Julio",
+	    	topic:"Backend",
+	    	subthemes:[
+	    		"Callbacks",
+				"Promesas",
+				"Async and wait",
+				"API Filesystem"
+
+	    	]
+	    }, {
+	    	date:"10 de Julio",
+	    	topic:"Backend",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    } , {
+	    	date:"11 de Julio",
+	    	topic:"Backend",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    } , {
+	    	date:"12 de Julio",
+	    	topic:"Rally",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    }, {
+	    	date:"13 de Julio",
+	    	topic:"Por definir",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    }
+	],
+	"Semana 17": [
+	    {
+	        date: "15 de Julio", 
+	        topic: "Backend",
+	        subthemes: [
+	            "Marco teórico Node.js",
+	            "Creación de un proyecto en Node",
+	            "Estilos de código",
+				"Comandos en NODE",
+				"Instalación de dependencias globales y locales",
+				"Dependencias funcionales y de desarrollo", 
+				"Ignorar archivos al subir a GIT",
+				"Deconstrucción"
+
+	        ]
+	    }, {
+	    	date:"16 de Julio",
+	    	topic:"Backend",
+	    	subthemes:[
+	    		"Callbacks",
+				"Promesas",
+				"Async and wait",
+				"API Filesystem"
+
+	    	]
+	    }, {
+	    	date:"17 de Julio",
+	    	topic:"Backend",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    } , {
+	    	date:"18 de Julio",
+	    	topic:"Backend",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    } , {
+	    	date:"19 de Julio",
+	    	topic:"Rally",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    }, {
+	    	date:"20 de Julio",
+	    	topic:"Por definir",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    }
 	]
 }
