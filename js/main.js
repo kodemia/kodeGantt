@@ -3,7 +3,6 @@ console.log(calendarActivities)
 var weekCount = 1;
 $.each(calendarActivities, function(index, value) {
 
-
     console.log(weekCount)
     $("#calendar-accordion>.card").append(`
         <div class="card-header" id="${index}">
@@ -25,7 +24,9 @@ $.each(calendarActivities, function(index, value) {
             <div class="card day-schedule">
                 <div class="card-body">
                     <h5 class="card-title">${value.date}</h5>
-                    <p class="card-text">${value.topic}</p>
+                    <p class="card-text">
+                         ${value.topic} <br /> (${value.mentor || ''})
+                    </p>
                 </div>
                 <ul class="list-group list-group-flush activities-detail-${index}"></ul>
             </div>

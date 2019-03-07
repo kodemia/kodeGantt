@@ -1,5 +1,5 @@
 let calendarActivities = {
-    "Semana 1 Inducción": [
+    "Semana 1": [
 		{
 	        date: "18 de Marzo (L)",
 	        topic: "Asueto",
@@ -45,10 +45,10 @@ let calendarActivities = {
 	    		"Explicación sobre Pseudocódigo",
 	    		"Ejercicios de aplicación de Pseudocódigo"
 			],
-			mentor: 'Isra, David y Charles'			
+			mentor: 'x'			
 	    }
 	],
-	"Semana 2 front": [
+	"Semana 2": [
 	    {
 	        date: "25 de Marzo (L)", 
 	        topic: "Introducción a HTML y CSS",
@@ -57,8 +57,7 @@ let calendarActivities = {
 	            "Etiquetas y atributos HTML",
 	            "Semántica HTML 5",
 	            "Maquetado de estructuras báscias con HTML"
-			],
-			mentor: 'Vero'
+	        ]
 	    }, {
 	    	date:"26 de Marzo (M)",
 	    	topic:"Introducción a HTML y CSS",
@@ -69,8 +68,7 @@ let calendarActivities = {
 	    		"Selectores anidados",
 	    		"Selectores concatenados",
 	    		"Pseudoselectores (evento, atributo, posición, ::after, ::before)"
-	    	],
-			mentor: 'Vero'
+	    	]
 	    }, {
 	    	date:"27 de Marzo (W)",
 	    	topic:"Introducción a HTML y CSS",
@@ -79,8 +77,7 @@ let calendarActivities = {
 	    		"Media queries",
 	    		"Breakpoints",
 	    		"Desarrollo de clases responsivas"
-	    	],
-			mentor: 'Vero'
+	    	]
 	    } , {
 	    	date:"28 de Marzo (J)",
 	    	topic:"Introducción a HTML y CSS",
@@ -89,15 +86,13 @@ let calendarActivities = {
 	    		"Grid ",
 	    		"Transiciones con CSS",
 	    		"Animaciones con CSS"
-	    	],
-			mentor: 'Isra'
+	    	]
 	    } , {
 	    	date:"29 de Marzo (V)",
 	    	topic:"Git y github",
 	    	subthemes:[
 	    		"N/A"
-	    	],
-			mentor: 'OTRO DUDE'
+	    	]
 	    }, {
 	    	date:"30 de Marzo (S)",
 	    	topic:"UX/UI",
@@ -106,7 +101,7 @@ let calendarActivities = {
 	    	]
 	    }
 	],
-	"Semana 3 front": [
+	"Semana 3": [
 	    {
 	        date: "1 de Abril (L)", 
 	        topic: "Bootstrap",
@@ -116,8 +111,7 @@ let calendarActivities = {
 	            "Bootstrap Components",
 	            "Maquetado responsivo empleando Bootstrap Grid",
 	            "Personalización y funcionalidad de componentes"
-			],
-			mentor: 'Isra'
+	        ]
 	    }, {
 	    	date:"2 de Abril (M)",
 	    	topic:"Bootstrap",
@@ -125,39 +119,36 @@ let calendarActivities = {
 	    		"Clases responsivas",
 	    		"Clases de soporte",
 	    		"Clases de alineación"
-	    	],
-			mentor: 'Isra'
+	    	]
 	    }, {
 	    	date:"3 de Abril (W)",
-	    	topic:"Laboratorio HTML, CSS, Bootstrap",
+	    	topic:"Diseño de CV para perfiles de alto impacto",
 	    	subthemes:[
-				"Desafío 1"
-			],
-			mentor: 'Isra y Vero'
+	    		"Elementos que conforman un CV de alto impacto",
+	    		"Elementos esenciales para un perfil de linkedin de alto impacto"
+	    	]
 	    } , {
 	    	date:"4 de Abril (J)",
+	    	topic:"Diseño de CV para perfiles de alto impacto",
+	    	subthemes:[
+	    		"Elementos esenciales de un CV",
+	    		"Preparación para entrevistas de trabajo efectivas"
+	    	]
+	    } , {
+	    	date:"5 de Abril (V)",
 	    	topic:"Laboratorio HTML, CSS, Bootstrap",
 	    	subthemes:[
 	    		"Desafío 1"
-			],
-			mentor: 'Isra y Vero'
-	    } , {
-	    	date:"5 de Abril (V)",
-	    	topic:"Rally",
-	    	subthemes:[
-	    		"Rally"
-	    	],
-			mentor: 'Isra y Vero'
+	    	]
 	    }, {
 	    	date:"6 de Abril (S)",
 	    	topic:"UX / UI",
 	    	subthemes:[
 	    		"N/A"
-	    	],
-			mentor: 'Otrx DUDE'
+	    	]
 	    }
 	],
-	"Semana 4 front": [
+	"Semana 4": [
 	    {
 	        date: "8 de Abril (l)", 
 	        topic: "Estructura de Datos y Algoritmos Introducción a JavaScript",
@@ -167,8 +158,7 @@ let calendarActivities = {
 				"Buffers",
 				"Algoritmos",
 				"Algoritmos de ordenamiento"
-			],
-			mentor: 'Michael' 
+			]	        
 	    }, {
 	    	date:"9 de Abril (M)",
 	    	topic:"Introducción a JavaScript",
@@ -182,8 +172,7 @@ let calendarActivities = {
 	            "Tipos de datos",
 	            "Sentencias condicionales",
 	            "Ciclos"
-	        ],
-			mentor: 'Michael'
+	        ]
 	    }, {
 	    	date:"10 de Abril (W)",
 	    	topic:"Introducción a JavaScript",
@@ -194,8 +183,7 @@ let calendarActivities = {
 	    		"Introducción a métodos de Arrays",
 	    		"Funciones",
 	    		"Parámetros y argumentos"
-	    	],
-			mentor: 'Michael'
+	    	]
 	    } , {
 	    	date:"11 de Abril (J)",
 	    	topic:"Introducción a JavaScript",
@@ -203,8 +191,7 @@ let calendarActivities = {
 	    		"Métodos en Arrays, continuación",
 	    		"Métodos de Arrays funcionales",
 	    		"Introducción a objetos en Javascript"
-	    	],
-			mentor: 'Michael'
+	    	]
 	    } , {
 			date:"12 de Abril (V)",
 	    	topic:"Introducción a JavaScript",
@@ -214,25 +201,22 @@ let calendarActivities = {
 	    		"Métodos en JS",
 	    		"Funciones constructoras de objetos",
 	    		"Instanciación de objetos"
-	    	],
-			mentor: 'Michael'
+	    	]
 	    }, {
 	    	date:"13 de Abril (S)",
-	    	topic:"Git y github",
+	    	topic:"Por definir",
 	    	subthemes:[
-	    		''
-			],
-			mentor: 'Luis Jimenez'
+	    		"N/A"
+	    	]
 	    }
 	],
-	"Semana 5 front": [
+	"Semana 5": [
 	    {
 	        date: "15 de Abril (l)", 
 	        topic: "JavaScript",
 	        subthemes: [
 	            "Métodos"
-	        ],
-			mentor: 'Michael'
+	        ]
 	    }, {
 	    	date:"16 de Abril (M)",
 	    	topic:"JavaScript",
@@ -240,16 +224,14 @@ let calendarActivities = {
 	    		"Eventos",
 	    		"Event Listeners",
 	    		"Carga de contenidos"
-	    	],
-			mentor: 'Michael'
+	    	]
 	    }, {
 	    	date:"17 de Abril (M)",
 	    	topic:"JavaScript",
 	    	subthemes:[
 	    		"Eventos DOM",
 	    		"Eventos DOM HTML"
-	    	],
-			mentor: 'Michael'
+	    	]
 	    } , {
 	    	date:"18 de Abril (J)",
 	    	topic:"JavaScript INHABIL",
@@ -257,15 +239,13 @@ let calendarActivities = {
 	    		"AJAX",
 	    		"Objeto XHTTP",
 	    		"Lectura de archivos JSON"
-	    	],
-			mentor: 'Michael'
+	    	]
 	    } , {
 	    	date:"19 de Abril (V) INHABIL",
 	    	topic:"Rally JS",
 	    	subthemes:[
 	    		"N/A"
-	    	],
-			mentor: 'Michael'
+	    	]
 	    }, {
 	    	date:"20 de Abril (S) INHABIL",
 	    	topic:"Por definir",
@@ -274,7 +254,7 @@ let calendarActivities = {
 	    	]
 	    }
 	],
-	"Semana 6 front": [
+	"Semana 6": [
 	    {
 	        date: "29 de Abril (L)", 
 	        topic: "JavaScript",
@@ -282,8 +262,7 @@ let calendarActivities = {
 	            "AJAX, continuación",
 	            "Envío de datos",
 	            "Ejercicios"
-	        ],
-			mentor: 'Michael'
+	        ]
 	    }, {
 	    	date:"30 de Abril (M)",
 	    	topic:"JavaScript",
@@ -291,8 +270,7 @@ let calendarActivities = {
 	    		"Uso del estándar ES6",
 	    		"Variables let y const",
 	    		"Arrow functions"
-	    	],
-			mentor: 'Michael'
+	    	]
 	    }, {
 	    	date:"1 de Mayo (W)",
 	    	topic:"JavaScript INHABIL",
@@ -301,32 +279,28 @@ let calendarActivities = {
 	    		"Parámetros por defecto",
 	    		"Operador Spread",
 	    		"Estructuración de objetos"
-	    	],
-			mentor: 'Michael'
+	    	]
 	    } , {
 	    	date:"2 de Mayo (J)",
 	    	topic:"JavaScript",
 	    	subthemes:[
 	    		"Ejercicios de lógica y aplicación de JS"
-	    	],
-			mentor: 'Michael'
+	    	]
 	    } , {
 	    	date:"3 de Mayo (V)",
 	    	topic:"Desafío 2",
 	    	subthemes:[
 	    		"Continuación de desafío con JS"
-	    	],
-			mentor: 'Michael'
+	    	]
 	    }, {
 	    	date:"4 de Mayo (S)",
-	    	topic:"AWS",
+	    	topic:"Por definir",
 	    	subthemes:[
 	    		"N/A"
-			],
-			mentor: 'Por definir'
+	    	]
 	    }
 	],
-	"Semana 7 front": [
+	"Semana 7": [
 	    {
 	        date: "6 de Mayo (L)", 
 	        topic: "JQuery",
@@ -336,8 +310,7 @@ let calendarActivities = {
 	            "Traversing",
 	            "Métodos de estilo con JQuery",
 	            "Métodos de animación con JQuery"
-	        ],
-			mentor: 'Isra'
+	        ]
 	    }, {
 	    	date:"7 de Mayo (M)",
 	    	topic:"JQuery",
@@ -345,15 +318,13 @@ let calendarActivities = {
 	    		"Creación de objetos JSON con JQuery",
 	    		"AJAX",
 	    		"Manipulación de DOM y visualización de datos"
-	    	],
-			mentor: 'Isra'
+	    	]
 	    }, {
 	    	date:"8 de Mayo (W)",
 	    	topic:"IBM cloud deploy proyecto estatico",
 	    	subthemes:[
-	    		"Deploy proyecto estatico"
-	    	],
-			mentor: 'Charlie'
+	    		"Por definir"
+	    	]
 	    } , {
 	    	date:"9 de Mayo (J)",
 	    	topic:"Desafío Módulo 1",
@@ -362,59 +333,49 @@ let calendarActivities = {
 	    	]
 	    } , {
 	    	date:"10 de Mayo (V)",
-	    	topic:"Inhabil",
+	    	topic:"Desafío Módulo 1",
 	    	subthemes:[
 	    		"N/A"
 	    	]
 	    }, {
 	    	date:"11 de Mayo (S)",
-	    	topic:"inhabil",
+	    	topic:"Por definir",
 	    	subthemes:[
 	    		"N/A"
 	    	]
 	    }
 	],
-	"Semana 8 Caro | Agile" : [
+	"Semana 8 prima" : [
 		{
 	        date: "13 de Mayo (L)", 
-	        topic: "Estructura del CV",
+	        topic: "Agile",
 	        subthemes: [
-				'Carta de presentación',
-				'Diseño de CV',
-				'Herramientas para la entrevista'
-	        ],
-			mentor: 'Caro'
+				'por definir con agile academy'
+	        ]
 	    }, {
 	    	date:"14 de Mayo (M)",
-			topic: "Competencias profesionales",
+			topic: "Agile",
 	        subthemes: [
-				'Analisis FODA',
-				'Plan de marketing personal',
-				'Entrevista'
-	        ],
-			mentor: 'Caro'
+				'por definir con agile academy'
+	        ]
 	    }, {
 	    	date:"15 de Mayo (W)",
-			topic: "Busqueda de oportunidades laborales",
+			topic: "Agile",
 	        subthemes: [
-				'Fuentes de reclutamiento',
-				'LinkedIn'
-	        ],
-			mentor: 'Caro'
+				'por definir con agile academy'
+	        ]
 	    } , {
 	    	date:"16 de Mayo (J)",
 			topic: "Agile",
 	        subthemes: [
 				'por definir con agile academy'
-	        ],
-			mentor: 'Agile'
+	        ]
 	    } , {
 	    	date:"17 de Mayo (V)",
 			topic: "Agile",
 	        subthemes: [
 				'por definir con agile academy'
-	        ],
-			mentor: 'Agile'
+	        ]
 	    }, {
 	    	date:"18 de Mayo (S)",
 			topic: "Agile",
@@ -423,32 +384,11 @@ let calendarActivities = {
 	        ]
 	    }
 	],
-	"Semana 9 back": [
-		{
-			date: "20 de Mayo (L)", 
-	        topic: "Agile",
+	"Semana 8": [
+	    {
+	        date: "13 de Mayo (L)", 
+	        topic: "Backend",
 	        subthemes: [
-				'por definir con agile academy'
-	        ],
-			mentor: 'Agile'
-		}, {
-	    	date:"21 de Mayo (M)",
-			topic:"La consola",
-			subthemes: [
-				'por definir con manu'
-			],
-			mentor: 'Manu'
-	    }, {
-	    	date:"22 de Mayo (W)",
-			topic:"La consola",
-			subthemes: [
-				'por definir con manu'
-			],
-			mentor: 'Manu'
-	    } , {
-	    	date:"23 de Mayo (J)",
-			topic:"Backend",
-			subthemes: [
 	            "Marco teórico Node.js",
 	            "Creación de un proyecto en Node",
 	            "Estilos de código",
@@ -457,12 +397,56 @@ let calendarActivities = {
 				"Dependencias funcionales y de desarrollo", 
 				"Ignorar archivos al subir a GIT",
 				"Deconstrucción"
-	        ],
-			mentor: 'Charles'
+
+	        ]
+	    }, {
+	    	date:"14 de Mayo (M)",
+	    	topic:"Backend",
+	    	subthemes:[
+	    		"Callbacks",
+				"Promesas",
+				"Async and wait",
+				"API Filesystem"
+
+	    	]
+	    }, {
+	    	date:"15 de Mayo (W)",
+	    	topic:"Backend",
+	    	subthemes:[
+	    		"Módulo HTTP",
+				"Hola mundo en express",
+				"Archivos estáticos en express (static)",
+				"Middlewares"
+
+	    	]
 	    } , {
-	    	date:"24 de Mayo (V)",
-			topic:"Rally",
-			subthemes: [
+	    	date:"16 de Mayo (J)",
+	    	topic:"Backend",
+	    	subthemes:[
+	    		"CRUD con express (courses, mentors, koders)",
+				"URI params",
+				"Routes"
+
+	    	]
+	    } , {
+	    	date:"17 de Mayo (V)",
+	    	topic:"Rally",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    }, {
+	    	date:"18 de Mayo (S)",
+	    	topic:"Por definir",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    }
+	],
+	"Semana 9": [
+	    {
+	        date: "20 de Mayo (L)", 
+	        topic: "Backend",
+	        subthemes: [
 	            "Hola mundo en NODE",
 				"Crear un archivo", 
 				"Agregar contenido a un archivo",
@@ -471,137 +455,149 @@ let calendarActivities = {
 				"Borrar carpeta con contenido",
 				"Repaso de Strings",
 				"Parse CSV"
-	        ],
-			mentor: 'Charles'
+
+	        ]
 	    }, {
-	    	date:"25 de Mayo (S)",
-	    	topic:"XP",
+	    	date:"21 de Mayo (M)",
+	    	topic:"Backend",
 	    	subthemes:[
-	    		""
-	    	]
-	    }
-	],
-	"Semana 10 back": [
-	    {
-	        date: "27 de Mayo (L)", 
-			topic: "Backend",
-			subthemes:[
-	    		"Callbacks",
-				"Promesas",
-				"Async and wait",
-				"API Filesystem"
-	    	],
-			mentor: 'Charles'
-	    }, {
-	    	date:"28 de Mayo (M)",
-			topic:"Backend",
-			subthemes:[
-	    		"Módulo HTTP",
-				"Hola mundo en express",
-				"Archivos estáticos en express (static)",
-				"Middlewares"
-	    	],
-			mentor: 'Manu'
-	    }, {
-	    	date:"29 de Mayo (W)",
-			topic:"Backend",
-			subthemes:[
-	    		"CRUD con express (courses, mentors, koders)",
-				"URI params",
-				"Routes"
-	    	],
-			mentor: 'Manu'
-	    } , {
-	    	date:"30 de Mayo (J)",
-			topic:"Backend",
-			subthemes:[
 	    		"¿Qué son las bases de datos?",
 				"Tipos de bases de datos.",
 				"BDMS",
 				"Ventajas y desventajas de las bases de datos relacionales y no relacionales. ",
-				"Ejemplo de una base de datos relacional con MySQL"
-	    	],
-			mentor: 'Charles'
-	    	
+				"Ejemplo de una base de datos relacional con MySQL",
+				"Resolución de ejercicio parse CSV (guardar en JSON)"
+
+	    	]
+	    }, {
+	    	date:"22 de Mayo (W)",
+	    	topic:"Backend",
+	    	subthemes:[
+	    		"Módulo HTTP",
+				"Hola mundo en express",
+				"Archivos estáticos en express (static)",
+				"Middlewares"
+	    	]
 	    } , {
-	    	date:"31 de Mayo (V)",
-	    	topic:"Back",
+	    	date:"23 de Mayo (J)",
+	    	topic:"Backend",
 	    	subthemes:[
 	    		"Instalación de MongoDB",
 				"Creación de una base de datos."
-	    	],
-			mentor: 'Charles'
+
+	    	]
+	    } , {
+	    	date:"24 de Mayo (V)",
+	    	topic:"Rally",
+	    	subthemes:[
+	    		"N/A"
+	    	]
 	    }, {
-	    	date:"1 de Junio (S)",
-	    	topic:"XP",
+	    	date:"25 de Mayo (S)",
+	    	topic:"Por definir",
 	    	subthemes:[
 	    		"N/A"
 	    	]
 	    }
 	],
-	"Semana 11 back": [
+	"Semana 10": [
 	    {
-	        date: "3 de Junio (L)", 
+	        date: "27 de Mayo (L)", 
 	        topic: "Backend",
 	        subthemes: [
 			  	"Estructuración de un proyecto con Express y Mongodb.",
 				"Verbos en express.js",
 				"CORS"
-			],
-			mentor: 'Charles'
+
+			]
 	    }, {
-	    	date:"4 de Junio (M)",
+	    	date:"28 de Mayo (M)",
 	    	topic:"Backend",
 	    	subthemes: [
 			   	"Mongoose (conexión a una base de datos)",
 				"Models (estructuración de los datos de un modelo)",
 				"express.Router"
-			],
-			mentor: 'Charles'
+
+			]
 	    }, {
-	    	date:"5 de Junio (W)",
+	    	date:"29 de Mayo (W)",
 	    	topic:"Backend",
 	    	subthemes:[
 	    		"Middlewares",
 				"JWT",
 				"Uso de bcrypt.js para la encriptación del password."
-	    	],
-			mentor: 'Charles'
+
+	    	]
 	    } , {
-	    	date:"6 de Junio (J)",
-	    	topic:"Desafio Backend",
+	    	date:"30 de Mayo (J)",
+	    	topic:"Backend",
 	    	subthemes:[
-				"Desafio back"
-	    	],
-			mentor: 'Charles'
+	    		"Mongoose (conexión a una base de datos)",
+				"Models (estructuración de los datos de un modelo)",
+				"express.Router",
+				"Obtener, crear, borrar y buscar datos de una base de datos a través de la creación de sus respectivas funciones. "
+
+	    	]
 	    } , {
-	    	date:"7 de Junio (V)",
-	    	topic:"KODETON",
+	    	date:"31 de Mayo (V)",
+	    	topic:"Rally",
 	    	subthemes:[
-	    		"Hackaton kodemia"
-	    	],
-			mentor: 'Charles'
+	    		"N/A"
+	    	]
 	    }, {
-	    	date:"8 de Junio (S)",
-	    	topic:"KODETON",
+	    	date:"01 de Junio (S)",
+	    	topic:"Por definir",
 	    	subthemes:[
-	    		"Hackaton kodemia"
+	    		"N/A"
 	    	]
 	    }
 	],
-	"Semana 12 ": [
+	"Semana 11": [
+	    {
+	        date: "03 de Junio (L)", 
+	        topic: "Backend",
+	        subthemes: [
+	            
+
+	        ]
+	    }, {
+	    	date:"04 de Junio (M)",
+	    	topic:"Backend",
+	    	subthemes:[
+	    		
+
+	    	]
+	    }, {
+	    	date:"05 de Junio (M)",
+	    	topic:"Backend",
+	    	subthemes:[
+	    		
+	    	]
+	    } , {
+	    	date:"06 de Junio (J)",
+	    	topic:"Backend",
+	    	subthemes:[
+	    		
+	    	]
+	    } , {
+	    	date:"07 de Junio (V)",
+	    	topic:"Rally",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    }, {
+	    	date:"08 de Junio (S)",
+	    	topic:"Por definir",
+	    	subthemes:[
+	    		"N/A"
+	    	]
+	    }
+	],
+	"Semana 12": [
 	    {
 	        date: "10 de Junio (L)", 
-	        topic: "Pitch",
+	        topic: "IBM Cloud",
 	        subthemes: [
-				'Discurso',
-				'Marca personal'
-	        ],
-			mentor: 'Caro'
-	    }, {
-	    	date:"11 de Junio (M)",
-	    	topic:"IBM Cloud",
-	    	subthemes: [
 	            "Marco teórico de Cloud",
 	            "Arquitectura en la nube",
 	            "Cloud Foundry",
@@ -610,31 +606,35 @@ let calendarActivities = {
 	            "Load Balancing",
 	            "Autoscaling"
 
-	        ],
-			mentor: 'Charlie'
+	        ]
 	    }, {
-	    	date:"12 de Junio (M)",
+	    	date:"11 de Junio (M)",
 	    	topic:"IBM Cloud",
 	    	subthemes:[
 	    		"Dev Ops: Automatización en la nube"
+
+	    	]
+	    }, {
+	    	date:"12 de Junio (W)",
+	    	topic:"IBM Cloud",
+	    	subthemes:[
+	    		"Cloudant: IBM NoSQL"
 	    	]
 	    } , {
 	    	date:"13 de Junio (J)",
 	    	topic:"IBM Cloud",
 	    	subthemes:[
-	    		"Cloudant: IBM NoSQL"
-	    	],
-			mentor: 'Charlie'
+	    		"Watson, Inteligencia Artificial aplicada"
+	    	]
 	    } , {
 	    	date:"14 de Junio (V)",
-	    	topic:"IBM Cloud",
+	    	topic:"Rally",
 	    	subthemes:[
-	    		"Watson, Inteligencia Artificial aplicada"
-	    	],
-			mentor: 'Charlie'
+	    		"N/A"
+	    	]
 	    }, {
 	    	date:"15 de Junio (S)",
-	    	topic:"Descansaton",
+	    	topic:"Por definir",
 	    	subthemes:[
 	    		"N/A"
 	    	]
@@ -642,21 +642,20 @@ let calendarActivities = {
 	],
 	"Semana 13": [
 	    {
-	        date: "17 de Junio (L)",
-			topic: "ReactJS",
-			subthemes: [
+	        date: "17 de Junio (L)", 
+	        topic: "ReactJS",
+	        subthemes: [
 	            "Marco teórico MVC",
 	            "Introducción a ReactJS"
-	        ],
-			mentor: 'Charles'
+
+	        ]
 	    }, {
 	    	date:"18 de Junio (M)",
 	    	topic:"ReactJS",
 	    	subthemes:[
 	    		"Paradigma reactivo en React",
 				"Componentes en react"
-	    	],
-			mentor: 'Charles'
+	    	]
 	    }, {
 	    	date:"19 de Junio (W)",
 	    	topic:"ReactJS",
@@ -666,8 +665,7 @@ let calendarActivities = {
 				"Uso de estilos (styles) en React" ,
 				"Uso de JSX",
 				"Funciones en React "
-	    	],
-			mentor: 'Charles'
+	    	]
 	    } , {
 	    	date:"20 de Junio (J)",
 	    	topic:"ReactJS",
@@ -675,22 +673,19 @@ let calendarActivities = {
 	    		"Funciones en React, continuación",
 				"Clases en react",
 				"Props"
-	    	],
-			mentor: 'Charles'
+	    	]
 	    } , {
 	    	date:"21 de Junio (V)",
 	    	topic:"Rally",
 	    	subthemes:[
 	    		"N/A"
-	    	],
-			mentor: 'Charles'
+	    	]
 	    }, {
 	    	date:"22 de Junio (S)",
-	    	topic:"Netlify",
+	    	topic:"Por definir",
 	    	subthemes:[
 	    		"N/A"
-			],
-			mentor: "Joe"
+	    	]
 	    }
 	],
 	"Semana 14": [
@@ -698,74 +693,99 @@ let calendarActivities = {
 	        date: "24 de Junio (L)", 
 	        topic: "ReactJS",
 	        subthemes: [
-	    		"Life cycle",
-				"Setstate"
-	    	],
-			mentor: 'Charles'
+	            "Marco teórico Node.js",
+	            "Creación de un proyecto en Node",
+	            "Estilos de código",
+				"Comandos en NODE",
+				"Instalación de dependencias globales y locales",
+				"Dependencias funcionales y de desarrollo", 
+				"Ignorar archivos al subir a GIT",
+				"Deconstrucción"
+
+	        ]
 	    }, {
 	    	date:"25 de Junio (M)",
 	    	topic:"ReactJS",
 	    	subthemes:[
+	    		"Callbacks",
+				"Promesas",
+				"Async and wait",
+				"API Filesystem"
 
-	    	],
-			mentor: 'Charles'
+	    	]
 	    }, {
 	    	date:"26 de Junio (W)",
 	    	topic:"ReactJS",
 	    	subthemes:[
+	    		"Life cycle",
+				"Setstate"
 
-	    	],
-			mentor: 'Charles'
+	    	]
 	    } , {
 	    	date:"27 de Junio (J)",
-	    	topic: "ReactJS",
-	        subthemes: [
-
-	        ],
-			mentor: 'Charles'
+	    	topic:"ReactJS",
+	    	subthemes:[
+	    		"N/A"
+	    	]
 	    } , {
 	    	date:"28 de Junio (V)",
 	    	topic:"Rally",
 	    	subthemes:[
 	    		"N/A"
-	    	],
-			mentor: 'Charles'
+	    	]
 	    }, {
 	    	date:"29 de Junio (S)",
-	    	topic:"Negocios en TI",
+	    	topic:"Por definir",
 	    	subthemes:[
-	    		"POR DEFINIR"
+	    		"N/A"
 	    	]
 	    }
 	],
 	"Semana 15": [
 	    {
-	        date: "1 de Julio (L)", 
-	        topic:"ReactJS",
-	    	subthemes:[
+	        date: "01 de Julio (L)", 
+	        topic: "ReactJS",
+	        subthemes: [
+	            "Marco teórico Node.js",
+	            "Creación de un proyecto en Node",
+	            "Estilos de código",
+				"Comandos en NODE",
+				"Instalación de dependencias globales y locales",
+				"Dependencias funcionales y de desarrollo", 
+				"Ignorar archivos al subir a GIT",
+				"Deconstrucción"
 
-	    	],
-			mentor: 'Charles'
+	        ]
 	    }, {
-	    	date:"2 de Julio (M)",
-	        topic:"ReactJS",
-	    	mentor: 'Charles'
+	    	date:"02 de Julio (M)",
+	    	topic:"ReactJS",
+	    	subthemes:[
+	    		"Callbacks",
+				"Promesas",
+				"Async and wait",
+				"API Filesystem"
+
+	    	]
 	    }, {
-	    	date:"3 de Julio (W)",
-	        topic:"ReactJS",
-	    	
+	    	date:"03 de Julio (W)",
+	    	topic:"ReactJS",
+	    	subthemes:[
+	    		"N/A"
+	    	]
 	    } , {
-	    	date:"4 de Julio (J)",
-	        topic:"ReactJS",
-	    	
+	    	date:"04 de Julio (J)",
+	    	topic:"ReactJS",
+	    	subthemes:[
+	    		"N/A"
+	    	]
 	    } , {
-	    	date:"5 de Julio (V)",
+	    	date:"05 de Julio (V)",
 	    	topic:"Rally",
 	    	subthemes:[
 	    		"N/A"
 	    	]
 	    }, {
-	    	date:"6 de Julio (S)",
+	    	date:"06 de Julio (S)",
 	    	topic:"Por definir",
 	    	subthemes:[
 	    		"N/A"
@@ -774,14 +794,15 @@ let calendarActivities = {
 	],
 	"Semana 16": [
 	    {
-	        date: "8 de Julio (L)", 
+	        date: "08 de Julio (L)", 
 	        topic: "Desafío Final",
-	        subthemes:[
-	    		"N/A"
-	    	]
+	        subthemes: [
+	            "N/A"
+
+	        ]
 	    }, {
-	    	date:"9 de Julio (M)",
-	        topic: "Desafío Final",
+	    	date:"09 de Julio (M)",
+	    	topic:"Desafío Final",
 	    	subthemes:[
 	    		"N/A"
 	    	]
@@ -805,7 +826,7 @@ let calendarActivities = {
 	    	]
 	    }, {
 	    	date:"13 de Julio (S)",
-	    	topic:"Desafío Final",
+	    	topic:"Por definir",
 	    	subthemes:[
 	    		"N/A"
 	    	]
@@ -839,9 +860,9 @@ let calendarActivities = {
 	    	]
 	    } , {
 	    	date:"19 de Julio (V)",
-	    	topic:"Kodeawards",
+	    	topic:"Clausura",
 	    	subthemes:[
-	    		""
+	    		"N/A"
 	    	]
 	    }
 	]
