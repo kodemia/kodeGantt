@@ -35,17 +35,18 @@ let calendarActivities = {
 	    	topic:"Pensamiento lógico",
 	    	subthemes:[
 	    		"Plática sobre pensamiento lógico aplicado a programación",
-	    		"Ejercicios de pensamiento lógico"
+				"Ejercicios de pensamiento lógico",
+				"Explicación sobre Pseudocódigo",
+	    		"Ejercicios de aplicación de Pseudocódigo"
 			],
 			mentor: 'David'			
 	    } , {
 	    	date:"23 de Marzo (S)",
 	    	topic:"Pseudocódigo y Rally",
+	    	topic:"UX/UI",
 	    	subthemes:[
-	    		"Explicación sobre Pseudocódigo",
-	    		"Ejercicios de aplicación de Pseudocódigo"
-			],
-			mentor: 'Isra, David y Charles'			
+	    		"N/A"
+	    	]	
 	    }
 	],
 	"Semana 2 front": [
@@ -150,11 +151,11 @@ let calendarActivities = {
 			mentor: 'Isra y Vero'
 	    }, {
 	    	date:"6 de Abril (S)",
-	    	topic:"UX / UI",
+	    	topic:"Design thinking",
 	    	subthemes:[
 	    		"N/A"
 	    	],
-			mentor: 'Otrx DUDE'
+			mentor: ''
 	    }
 	],
 	"Semana 4 front": [
@@ -686,7 +687,7 @@ let calendarActivities = {
 			mentor: 'Charles'
 	    }, {
 	    	date:"22 de Junio (S)",
-	    	topic:"Netlify",
+	    	topic:"JAM stack",
 	    	subthemes:[
 	    		"N/A"
 			],

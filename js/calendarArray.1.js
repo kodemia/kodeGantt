@@ -35,17 +35,18 @@ let calendarActivities = {
 	    	topic:"Pensamiento lógico",
 	    	subthemes:[
 	    		"Plática sobre pensamiento lógico aplicado a programación",
-	    		"Ejercicios de pensamiento lógico"
+				"Ejercicios de pensamiento lógico",
+				"Explicación sobre Pseudocódigo",
+	    		"Ejercicios de aplicación de Pseudocódigo"
 			],
 			mentor: 'David'			
 	    } , {
 	    	date:"23 de Marzo (S)",
-	    	topic:"Pseudocódigo y Rally",
+	    	topic:"UX/UI",
 	    	subthemes:[
-	    		"Explicación sobre Pseudocódigo",
-	    		"Ejercicios de aplicación de Pseudocódigo"
-			],
-			mentor: 'x'			
+	    		"N/A"
+	    	],
+			mentor: 'Oro Dude'			
 	    }
 	],
 	"Semana 2": [
