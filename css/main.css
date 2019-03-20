@@ -18,5 +18,31 @@
 #calendar-accordion .day-schedule:first-of-type {
   margin-left: 0px;
 }
+#calendar-accordion .card-header {
+  color: white;
+  background: #545454;
+  background-image: url("../img/bg-pattern.png");
+}
+#calendar-accordion .card-header .btn-link {
+  color: white;
+}
+#calendar-accordion .card-body {
+  background: #ddd;
+}
+#calendar-accordion .card-body .day-schedule .card-body {
+  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.5);
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#calendar-accordion .card-body .day-schedule .card-body h5, #calendar-accordion .card-body .day-schedule .card-body p {
+  color: white;
+}
+
+.gray-background {
+  background: #797979;
+}
 
 /*# sourceMappingURL=main.css.map */

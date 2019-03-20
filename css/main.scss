@@ -21,5 +21,32 @@
 	.day-schedule:first-of-type{
 		margin-left:0px
 	}
+	.card-header{
+		color:white;
+		background: #545454;
+    	background-image: url("../img/bg-pattern.png");
+    	.btn-link{
+    		color:white;
+    	}
+	}
+	.card-body{
+		background:#ddd;
+		.day-schedule{
+			.card-body{
+				background:rgba(0,0,0,.5);
+			    background: rgba(0, 0, 0, 0.5);
+			    min-height: 120px;
+			    display: flex;
+			    flex-direction: column;
+			    justify-content: center;
+				h5,p{
+					color:white;
+				}
+			}
+		}
+	}
 }
 
+.gray-background{
+	background:#797979;
+}
