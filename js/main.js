@@ -12,7 +12,7 @@ $.each(calendarActivities, function(index, value) {
             </button>
             </h5>
         </div>
-        <div id="collapse-${weekCount}" class="collapse show" aria-labelledby="${index}" data-parent="#calendar-accordion">
+        <div id="collapse-${weekCount}" class="collapse" aria-labelledby="${index}" data-parent="#calendar-accordion">
             <div class="card-body d-flex justify-content-between day-wrapper">
                 
             </div>
