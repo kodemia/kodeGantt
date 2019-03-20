@@ -98,7 +98,7 @@ let calendarActivities = {
 	    	subthemes:[
 	    		"N/A"
 	    	],
-			mentor: 'OTRO DUDE'
+			mentor: 'GitHub CE'
 	    }, {
 	    	date:"30 de Marzo (S)",
 	    	topic:"UX/UI",
@@ -269,7 +269,7 @@ let calendarActivities = {
 			mentor: 'Michael'
 	    }, {
 	    	date:"20 de Abril (S) INHABIL",
-	    	topic:"Por definir",
+	    	topic:"NA",
 	    	subthemes:[
 	    		"N/A"
 	    	]
@@ -324,7 +324,7 @@ let calendarActivities = {
 	    	subthemes:[
 	    		"N/A"
 			],
-			mentor: 'Por definir'
+			mentor: ''
 	    }
 	],
 	"Semana 7 front": [
@@ -406,22 +406,23 @@ let calendarActivities = {
 	    	date:"16 de Mayo (J)",
 			topic: "Agile",
 	        subthemes: [
-				'por definir con agile academy'
+				'Temario agile academy'
 	        ],
 			mentor: 'Agile'
 	    } , {
 	    	date:"17 de Mayo (V)",
 			topic: "Agile",
 	        subthemes: [
-				'por definir con agile academy'
+				'Temario agile academy'				
 	        ],
 			mentor: 'Agile'
 	    }, {
 	    	date:"18 de Mayo (S)",
 			topic: "Agile",
 	        subthemes: [
-				'por definir con agile academy'
-	        ]
+				'Temario agile academy'				
+			],
+			mentor: 'Agile'			
 	    }
 	],
 	"Semana 9 back": [
@@ -429,21 +430,23 @@ let calendarActivities = {
 			date: "20 de Mayo (L)", 
 	        topic: "Agile",
 	        subthemes: [
-				'por definir con agile academy'
+				'Temario agile academy'								
 	        ],
 			mentor: 'Agile'
 		}, {
 	    	date:"21 de Mayo (M)",
 			topic:"La consola",
 			subthemes: [
-				'por definir con manu'
+				'Introduccion a linux',
+				'comandos basicos'
 			],
 			mentor: 'Manu'
 	    }, {
 	    	date:"22 de Mayo (W)",
 			topic:"La consola",
 			subthemes: [
-				'por definir con manu'
+				'bash',
+				'Arquitectura y servicios'
 			],
 			mentor: 'Manu'
 	    } , {
@@ -735,7 +738,7 @@ let calendarActivities = {
 	    	date:"29 de Junio (S)",
 	    	topic:"Negocios en TI",
 	    	subthemes:[
-	    		"POR DEFINIR"
+	    		""
 	    	]
 	    }
 	],
