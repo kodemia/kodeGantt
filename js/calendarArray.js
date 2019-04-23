@@ -184,14 +184,22 @@ let calendarActivities = {
 	    	date:"11 de Abril (J)",
 	    	topic:"Introducción a javaScript",
 	    	subthemes:[
-	    		""
+				"Qué es javascript?",
+				"Pros y contras del lenguaje",
+				"Variables",
+				"Op. de asignación",
+				"Op. Aritmeticos",
+				"Op. de Comparación",
+				"Op. lógicos"
 			],
 			mentor: 'David'
 	    } , {
 	    	date:"12 de Abril (V)",
 	    	topic:"Condicionales ciclos y metodos de string",
 	    	subthemes:[
-	    		""
+				"Ejercicios con operadores",
+				"If, else if, else statements",
+				"Ejercicios de condicionales"
 	    	],
 			mentor: 'David'
 	    }, {
@@ -215,23 +223,30 @@ let calendarActivities = {
 	    	date:"16 de Abril (M)",
 	    	topic:"Ejercicios metodos de array intro a filter",
 	    	subthemes: [
-				''
+				'Retos con forEach¿ y map',
+				"Introducción a filter"
 	        ],
 			mentor: 'David'
 	    }, {
 	    	date:"17 de Abril (W)",
 	    	topic:"Ejercicios metodos funcionales de array, into a objetos",
 	    	subthemes:[
-	    		""
+				"Retos forEach, map, filter",
+				"Introducción a objetos",
+				"Retos con objetos",
+				"Arrays de objetos"
 	    	],
 			mentor: 'David'
 	    } , {
 	    	date:"18 de Abril (J)",
 	    	topic:"Objetos y sus metodos",
 	    	subthemes:[
-	    		""
+				"Retos de Objetos",
+				"Metodos de Objetos",
+				"Funciones contructoras de Objetos",
+				"Retos (todo lo visto)"
 	    	],
-			mentor: 'Michael'
+			mentor: 'David'
 	    } , {
 			date:"19 de Abril (V)",
 	    	topic:"Inhabil",
@@ -253,7 +268,11 @@ let calendarActivities = {
 	        date: "22 de Abril (l)", 
 	        topic: "Intro a DOM y sus nodos",
 	        subthemes: [
-	            ""
+				"Reto, con array de objetos, funcion contructora y metodos",
+				"¿Qué es el DOM?",
+				"¿Qué puedo hacer con el DOM?",
+				"Selectores",
+				"Manipulación de Nodos (Estilos)"
 	        ],
 			mentor: 'Michael'
 	    }, {
