@@ -158,65 +158,42 @@ let calendarActivities = {
 			mentor: ''
 	    }
 	],
-	"Semana 4 front": [
+	"Semana 4 front (ajustada)": [
 	    {
-	        date: "8 de Abril (l)", 
-	        topic: "Estructura de Datos y Algoritmos Introducción a JavaScript",
-	    	subthemes: [
-				"Pilas",
-				"Colas",
-				"Buffers",
-				"Algoritmos",
-				"Algoritmos de ordenamiento"
+	        date: "8 de Abril (L)", 
+	        topic: "Desafio extra",
+	        subthemes: [
+	            "Desafio extra"
 			],
-			mentor: 'Michael' 
+			mentor: 'Isra'
 	    }, {
 	    	date:"9 de Abril (M)",
-	    	topic:"Introducción a JavaScript",
-	    	subthemes: [
-	            "Marco teórico de Javascript",
-	            "Despliegue de datos",
-	            "Operadores de asignación",
-	            "Operadores aritméticos",
-	            "Operadores de comparación",
-	            "Operadores lógicos",
-	            "Tipos de datos",
-	            "Sentencias condicionales",
-	            "Ciclos"
-	        ],
-			mentor: 'Michael'
+	    	topic: "Desafio extra",
+	        subthemes: [
+	            "Desafio extra"
+			],
+			mentor: 'Isra'
 	    }, {
 	    	date:"10 de Abril (W)",
-	    	topic:"Introducción a JavaScript",
-	    	subthemes:[
-	    		"Métodos de String",
-	    		"Código Hexadecimal en String",
-	    		"Código UNICODE",
-	    		"Introducción a métodos de Arrays",
-	    		"Funciones",
-	    		"Parámetros y argumentos"
-	    	],
-			mentor: 'Michael'
+	    	topic: "Desafio extra",
+	        subthemes: [
+	            "Desafio extra"
+			],
+			mentor: 'Isra y Vero'
 	    } , {
 	    	date:"11 de Abril (J)",
-	    	topic:"Introducción a JavaScript",
+	    	topic:"Introducción a javaScript",
 	    	subthemes:[
-	    		"Métodos en Arrays, continuación",
-	    		"Métodos de Arrays funcionales",
-	    		"Introducción a objetos en Javascript"
-	    	],
-			mentor: 'Michael'
+	    		""
+			],
+			mentor: 'David'
 	    } , {
-			date:"12 de Abril (V)",
-	    	topic:"Introducción a JavaScript",
+	    	date:"12 de Abril (V)",
+	    	topic:"Condicionales ciclos y metodos de string",
 	    	subthemes:[
-	    		"Objetos en JavaScript, continuación",
-	    		"Arrays de objetos",
-	    		"Métodos en JS",
-	    		"Funciones constructoras de objetos",
-	    		"Instanciación de objetos"
+	    		""
 	    	],
-			mentor: 'Michael'
+			mentor: 'David'
 	    }, {
 	    	date:"13 de Abril (S)",
 	    	topic:"Git y github",
@@ -229,13 +206,58 @@ let calendarActivities = {
 	"Semana 5 front": [
 	    {
 	        date: "15 de Abril (l)", 
-	        topic: "JavaScript",
+	        topic: "Array, funciones y metodos de array",
+	    	subthemes: [
+				''
+			],
+			mentor: 'charles' 
+	    }, {
+	    	date:"16 de Abril (M)",
+	    	topic:"Ejercicios metodos de array intro a filter",
+	    	subthemes: [
+				''
+	        ],
+			mentor: 'David'
+	    }, {
+	    	date:"17 de Abril (W)",
+	    	topic:"Ejercicios metodos funcionales de array, into a objetos",
+	    	subthemes:[
+	    		""
+	    	],
+			mentor: 'David'
+	    } , {
+	    	date:"18 de Abril (J)",
+	    	topic:"Objetos y sus metodos",
+	    	subthemes:[
+	    		""
+	    	],
+			mentor: 'Michael'
+	    } , {
+			date:"19 de Abril (V)",
+	    	topic:"Inhabil",
+	    	subthemes:[
+	    		""
+	    	],
+			mentor: ''
+	    }, {
+	    	date:"20 de Abril (S)",
+	    	topic:"Inhabil",
+	    	subthemes:[
+	    		''
+			],
+			mentor: ''
+	    }
+	],
+	"Semana 6 front": [
+	    {
+	        date: "22 de Abril (l)", 
+	        topic: "Intro a DOM y sus nodos",
 	        subthemes: [
-	            "Métodos"
+	            ""
 	        ],
 			mentor: 'Michael'
 	    }, {
-	    	date:"16 de Abril (M)",
+	    	date:"23 de Abril (M)",
 	    	topic:"JavaScript",
 	    	subthemes:[
 	    		"Eventos",
@@ -244,7 +266,7 @@ let calendarActivities = {
 	    	],
 			mentor: 'Michael'
 	    }, {
-	    	date:"17 de Abril (M)",
+	    	date:"24 de Abril (M)",
 	    	topic:"JavaScript",
 	    	subthemes:[
 	    		"Eventos DOM",
@@ -252,7 +274,7 @@ let calendarActivities = {
 	    	],
 			mentor: 'Michael'
 	    } , {
-	    	date:"18 de Abril (J)",
+	    	date:"25 de Abril (J)",
 	    	topic:"JavaScript INHABIL",
 	    	subthemes:[
 	    		"AJAX",
@@ -261,21 +283,21 @@ let calendarActivities = {
 	    	],
 			mentor: 'Michael'
 	    } , {
-	    	date:"19 de Abril (V) INHABIL",
+	    	date:"26 de Abril (V) INHABIL",
 	    	topic:"Rally JS",
 	    	subthemes:[
 	    		"N/A"
 	    	],
 			mentor: 'Michael'
 	    }, {
-	    	date:"20 de Abril (S) INHABIL",
+	    	date:"27 de Abril (S) INHABIL",
 	    	topic:"NA",
 	    	subthemes:[
 	    		"N/A"
 	    	]
 	    }
 	],
-	"Semana 6 front": [
+	"Semana 7 front": [
 	    {
 	        date: "29 de Abril (L)", 
 	        topic: "JavaScript",
@@ -327,7 +349,7 @@ let calendarActivities = {
 			mentor: ''
 	    }
 	],
-	"Semana 7 front": [
+	"Semana 8 front": [
 	    {
 	        date: "6 de Mayo (L)", 
 	        topic: "JQuery",
@@ -375,7 +397,7 @@ let calendarActivities = {
 	    	]
 	    }
 	],
-	"Semana 8 Caro | Agile" : [
+	"Semana 9 Caro | Agile" : [
 		{
 	        date: "13 de Mayo (L)", 
 	        topic: "Estructura del CV",
@@ -425,7 +447,7 @@ let calendarActivities = {
 			mentor: 'Agile'			
 	    }
 	],
-	"Semana 9 back": [
+	"Semana 10 back": [
 		{
 			date: "20 de Mayo (L)", 
 	        topic: "Agile",
@@ -485,7 +507,7 @@ let calendarActivities = {
 	    	]
 	    }
 	],
-	"Semana 10 back": [
+	"Semana 11 back": [
 	    {
 	        date: "27 de Mayo (L)", 
 			topic: "Backend",
@@ -543,7 +565,7 @@ let calendarActivities = {
 	    	]
 	    }
 	],
-	"Semana 11 back": [
+	"Semana 12 back": [
 	    {
 	        date: "3 de Junio (L)", 
 	        topic: "Backend",
@@ -593,7 +615,7 @@ let calendarActivities = {
 	    	]
 	    }
 	],
-	"Semana 12 ": [
+	"Semana 13 ": [
 	    {
 	        date: "10 de Junio (L)", 
 	        topic: "Pitch",
@@ -644,7 +666,7 @@ let calendarActivities = {
 	    	]
 	    }
 	],
-	"Semana 13": [
+	"Semana 14": [
 	    {
 	        date: "17 de Junio (L)",
 			topic: "ReactJS",
@@ -697,7 +719,7 @@ let calendarActivities = {
 			mentor: "Joe"
 	    }
 	],
-	"Semana 14": [
+	"Semana 15": [
 	    {
 	        date: "24 de Junio (L)", 
 	        topic: "ReactJS",
@@ -742,7 +764,7 @@ let calendarActivities = {
 	    	]
 	    }
 	],
-	"Semana 15": [
+	"Semana 16": [
 	    {
 	        date: "1 de Julio (L)", 
 	        topic:"ReactJS",
@@ -776,7 +798,7 @@ let calendarActivities = {
 	    	]
 	    }
 	],
-	"Semana 16": [
+	"Semana 17": [
 	    {
 	        date: "8 de Julio (L)", 
 	        topic: "Desafío Final",
@@ -815,7 +837,7 @@ let calendarActivities = {
 	    	]
 	    }
 	],
-	"Semana 17": [
+	"Semana 18": [
 	    {
 	        date: "15 de Julio (L)", 
 	        topic: "Desafío Final",
