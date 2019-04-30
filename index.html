@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Kodemia</title>
+		<title>Kodegantt</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="icon" type="image/png" href="img/isotipo-negro.png" />
 		<link rel="stylesheet" href="css/bootstrap.min.css">
@@ -18,17 +18,53 @@
 			<div class="row">
 				<div class="w-100">&nbsp;</div>
 				<div class="col">
-					<div id="calendar-accordion">
-						<div class="card">
-							
+					<div id="calendar-gantt">
+						<div class="grid-wrapper">
+							<div class="month-wrapper">
+								<h1 class="month-name">Julio</h1>
+								<div class="days-wrapper">
+									<div class="day-item">
+										<span>Viernes</span>
+										<span>1</span>
+										<div class="activities-wrapper">
+											<h2 class="activity-title">Introducción</h2>
+											<ul class="activities-list">
+												<li>Activity 1</li>
+												<li>Activity 2</li>
+												<li>Activity 3</li>
+											</ul>
+										</div>				
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+
+		<!--div class="main-container d-flex w-100 justify-content-between">
+			<div class="product-container d-flex border p-3">
+				<div class="product-item border">some content</div>
+				<div class="product-item border">some content</div>
+				<div class="product-item border">some content</div>
+			</div>
+			<div class="product-container d-flex border p-3">
+				<div class="product-item border">some content</div>
+				<div class="product-item border">some content</div>
+				<div class="product-item border">some content</div>
+			</div>
+			<div class="product-container d-flex border p-3">
+				<div class="product-item border">some content</div>
+				<div class="product-item border">some content</div>
+				<div class="product-item border">some content</div>
+			</div>
+		</div-->
 		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/popper.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/calendarGrid.js"></script>
 		<script src="js/calendarArray.js"></script>
 		<script src="js/main.js"></script>
 	</body>

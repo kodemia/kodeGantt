@@ -1,44 +1,59 @@
-.navbar img {
+nav img {
   max-width: 50px;
 }
 
-#calendar-accordion .day-schedule {
-  flex-shrink: 0;
-  margin-left: 5px;
-  max-width: calc(16% - 5px);
+#calendar-gantt {
+  white-space: nowrap;
+  width: 100%;
+  overflow-x: scroll;
+  height: calc(100vh - 110px);
+  border: 1px solid red;
+  padding-left: 200px;
 }
-#calendar-accordion .day-schedule .card-body {
-  flex: 0;
-  font-size: 12px;
-}
-#calendar-accordion .day-schedule .card-body .card-title {
-  font-size: 16px;
-  margin-bottom: 0px;
-}
-#calendar-accordion .day-schedule:first-of-type {
-  margin-left: 0px;
-}
-#calendar-accordion .card-header {
-  color: white;
-  background: #545454;
-  background-image: url("../img/bg-pattern.png");
-}
-#calendar-accordion .card-header .btn-link {
-  color: white;
-}
-#calendar-accordion .card-body {
-  background: #ddd;
-}
-#calendar-accordion .card-body .day-schedule .card-body {
-  background: rgba(0, 0, 0, 0.5);
-  background: rgba(0, 0, 0, 0.5);
-  min-height: 120px;
+#calendar-gantt .grid-wrapper {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
-#calendar-accordion .card-body .day-schedule .card-body h5, #calendar-accordion .card-body .day-schedule .card-body p {
+#calendar-gantt .grid-wrapper .month-wrapper {
+  display: inline-block;
+}
+#calendar-gantt .grid-wrapper .month-wrapper .month-name {
+  color: cyan;
+  font-size: 18px;
+}
+#calendar-gantt .grid-wrapper .month-wrapper .days-wrapper {
+  display: flex;
+  align-items: stretch;
+  white-space: nowrap;
+}
+#calendar-gantt .grid-wrapper .month-wrapper .days-wrapper .day-item {
+  border: 1px solid #1bff00;
+  display: inline-block;
+  width: 300px;
+  padding: 10px;
+  min-height: 92px;
+}
+#calendar-gantt .grid-wrapper .month-wrapper .days-wrapper .day-item.saturday {
+  color: cyan;
+}
+#calendar-gantt .grid-wrapper .month-wrapper .days-wrapper .day-item:hover {
   color: white;
+  cursor: pointer;
+}
+#calendar-gantt .grid-wrapper .month-wrapper .days-wrapper .day-item .activities-wrapper .activity-title {
+  font-size: 16px;
+  white-space: normal;
+}
+#calendar-gantt .grid-wrapper .month-wrapper .days-wrapper .day-item .activities-wrapper .activities-list {
+  list-style: none;
+  padding-left: 0;
+  display: none;
+  overflow: hidden;
+}
+#calendar-gantt .grid-wrapper .month-wrapper .days-wrapper .day-item .activities-wrapper .activities-list li {
+  white-space: normal;
+}
+#calendar-gantt .grid-wrapper .month-wrapper .days-wrapper .day-item .activities-wrapper .activities-list.active {
+  display: block;
 }
 
 .gray-background {
