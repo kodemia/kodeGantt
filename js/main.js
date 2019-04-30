@@ -1,8 +1,8 @@
 $(document).ready(function() {
     //console.log(monthsArray);
     fillGrid();
-    fillActivities("bootcampWhiteMern1","peru");
-    fillActivities("bootcampWhiteMern2","skyblue");
+    fillActivities("bootcampMern1","red-line");
+    fillActivities("bootcampVue1","blue-line");
 })
 
 const fillGrid = ()=>{
@@ -29,7 +29,7 @@ const fillGrid = ()=>{
                     <div class="day-item" data-item-date=${dayString+"/"+value.monthNumber}>
                         <span>${daysArray[dayIndex]}</span>  
                         <span>${dayNumber}</span>
-                        <div class="activities-wrapper" onclick="toggleDropDown(this)"></div>
+                        <div class="activities-wrapper"></div>
                     </div>
                 `)
             if (dayIndex < 5) {
@@ -44,7 +44,7 @@ const fillGrid = ()=>{
     })
 }
 
-const fillActivities = (activityId,lineClass) => {
+const fillActivities = (activityId, itemClass) => {
     $.each(calendarActivities[activityId], function(key, value) {
         //console.log(value);
         value.forEach(function(value, index) {
@@ -53,12 +53,14 @@ const fillActivities = (activityId,lineClass) => {
             console.log(assignedDate);
             console.log(value);
             console.log(currentSubthemes);
-            $(".days-wrapper").find(`[data-item-date='${assignedDate}']`).addClass(lineClass).find(".activities-wrapper").append(`
-                    <h2 class="activity-title">${value.topic}</h2>
-                    <ul class="activities-list"></ul>
+            $(".days-wrapper").find(`[data-item-date='${assignedDate}']`).find(".activities-wrapper").append(`
+                    <div class="activity-item ${itemClass}" data-activity-id="${activityId}" onclick="toggleDropDown(this)">
+                        <h2 class="activity-title">${value.topic}</h2>
+                        <ul class="activities-list"></ul>
+                    </div>
                 `)
             currentSubthemes.forEach(function(value,index){
-                $(".days-wrapper").find(`[data-item-date='${assignedDate}']`).find(".activities-list").append(`
+                $(".days-wrapper").find(`[data-item-date='${assignedDate}']`).find(`[data-activity-id='${activityId}']`).find(".activities-list").append(`
                         <li>${value}</li>
                     `)
             })
@@ -66,8 +68,12 @@ const fillActivities = (activityId,lineClass) => {
     })
 }
 
-const toggleDropDown = (element)=>{
+const toggleDropDown = (element) => {
     console.log("message");
-    $(".activities-list").removeClass("active");
-    $(element).find(".activities-list").addClass("active")
+    if ($(element).hasClass("active")) {
+        return false
+    } else {
+        $(".activities-list").removeClass("active");
+        $(element).find(".activities-list").addClass("active")
+    }
 }

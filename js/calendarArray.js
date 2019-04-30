@@ -1,5 +1,5 @@
 let calendarActivities = {
-    bootcampWhiteMern1:{
+    bootcampMern1:{
         "Semana 1 Inducción": [{
             date: "18/03",
             topic: "Asueto",
@@ -869,14 +869,14 @@ let calendarActivities = {
             ]
         }]
     },
-    bootcampWhiteMern2:{
+    bootcampVue1:{
         "Semana 1 Inducción": [{
-            date: "18/03",
-            topic: "Asueto",
+            date: "01/07",
+            topic: "Introducción",
             subthemes: [],
             mentor: 'x'
         }, {
-            date: "19/03",
+            date: "02/07",
             topic: "Introducción",
             subthemes: [
                 "1 hora de plática de Introducción",
@@ -884,7 +884,7 @@ let calendarActivities = {
             ],
             mentor: 'Leo Caro'
         }, {
-            date: "20/03",
+            date: "03/07",
             topic: "Pensamento estructurado ",
             subthemes: [
                 "Plática de pensamiento estructurado",
@@ -892,7 +892,7 @@ let calendarActivities = {
             ],
             mentor: 'Isra'
         }, {
-            date: "21/03",
+            date: "04/07",
             topic: "Diagramas de flujo",
             subthemes: [
                 "Explicación de diagramas de flujo",
@@ -900,7 +900,7 @@ let calendarActivities = {
             ],
             mentor: 'Charles'
         }, {
-            date: "22/03",
+            date: "05/07",
             topic: "Pensamiento lógico",
             subthemes: [
                 "Plática sobre pensamiento lógico aplicado a programación",
@@ -910,7 +910,7 @@ let calendarActivities = {
             ],
             mentor: 'David'
         }, {
-            date: "23/03",
+            date: "06/07",
             topic: "Pseudocódigo y Rally",
             topic: "UX/UI",
             subthemes: [
@@ -918,17 +918,7 @@ let calendarActivities = {
             ]
         }],
         "Semana 2 front": [{
-            date: "25/03",
-            topic: "Introducción a HTML y CSS",
-            subthemes: [
-                "Marco teórico HTML",
-                "Etiquetas y atributos HTML",
-                "Semántica HTML 5",
-                "Maquetado de estructuras báscias con HTML"
-            ],
-            mentor: 'Vero'
-        }, {
-            date: "26/03",
+            date: "08/07",
             topic: "Introducción a HTML y CSS",
             subthemes: [
                 "Marco teórico CSS",
@@ -940,7 +930,7 @@ let calendarActivities = {
             ],
             mentor: 'Vero'
         }, {
-            date: "27/03",
+            date: "09/07",
             topic: "Introducción a HTML y CSS",
             subthemes: [
                 "Teoría sobre desarrollo responsivo",
@@ -950,7 +940,7 @@ let calendarActivities = {
             ],
             mentor: 'Vero'
         }, {
-            date: "28/03",
+            date: "10/07",
             topic: "Introducción a HTML y CSS",
             subthemes: [
                 "Flexbox",
@@ -960,21 +950,27 @@ let calendarActivities = {
             ],
             mentor: 'Isra'
         }, {
-            date: "29/03",
+            date: "11/07",
             topic: "Git y github",
             subthemes: [
                 "N/A"
             ],
             mentor: 'GitHub CE'
         }, {
-            date: "30/03",
+            date: "12/07",
+            topic: "UX/UI",
+            subthemes: [
+                "N/A"
+            ]
+        }, {
+            date: "13/07",
             topic: "UX/UI",
             subthemes: [
                 "N/A"
             ]
         }],
         "Semana 3 front": [{
-            date: "01/04",
+            date: "15/07",
             topic: "Bootstrap",
             subthemes: [
                 "Bootstrap - Overview",
@@ -985,7 +981,7 @@ let calendarActivities = {
             ],
             mentor: 'Isra'
         }, {
-            date: "02/04",
+            date: "16/07",
             topic: "Bootstrap",
             subthemes: [
                 "Clases responsivas",
@@ -994,28 +990,28 @@ let calendarActivities = {
             ],
             mentor: 'Isra'
         }, {
-            date: "03/04",
+            date: "17/07",
             topic: "Laboratorio HTML, CSS, Bootstrap",
             subthemes: [
                 "Desafío 1"
             ],
             mentor: 'Isra y Vero'
         }, {
-            date: "04/04",
+            date: "18/07",
             topic: "Laboratorio HTML, CSS, Bootstrap",
             subthemes: [
                 "Desafío 1"
             ],
             mentor: 'Isra y Vero'
         }, {
-            date: "05/04",
+            date: "19/07",
             topic: "Rally",
             subthemes: [
                 "Rally"
             ],
             mentor: 'Isra y Vero'
         }, {
-            date: "06/04",
+            date: "20/07",
             topic: "Design thinking",
             subthemes: [
                 "N/A"
@@ -1023,28 +1019,28 @@ let calendarActivities = {
             mentor: ''
         }],
         "Semana 4 front (ajustada)": [{
-            date: "08/04",
+            date: "22/07",
             topic: "Desafio extra",
             subthemes: [
                 "Desafio extra"
             ],
             mentor: 'Isra'
         }, {
-            date: "09/04",
+            date: "23/07",
             topic: "Desafio extra",
             subthemes: [
                 "Desafio extra"
             ],
             mentor: 'Isra'
         }, {
-            date: "10/04",
+            date: "24/07",
             topic: "Desafio extra",
             subthemes: [
                 "Desafio extra"
             ],
             mentor: 'Isra y Vero'
         }, {
-            date: "11/04",
+            date: "25/07",
             topic: "Introducción a javaScript",
             subthemes: [
                 "Qué es javascript?",
@@ -1057,7 +1053,7 @@ let calendarActivities = {
             ],
             mentor: 'David'
         }, {
-            date: "12/04",
+            date: "26/07",
             topic: "Condicionales ciclos y metodos de string",
             subthemes: [
                 "Ejercicios con operadores",
@@ -1066,7 +1062,7 @@ let calendarActivities = {
             ],
             mentor: 'David'
         }, {
-            date: "13/04",
+            date: "27/07",
             topic: "Git y github",
             subthemes: [
                 ''
@@ -1074,14 +1070,14 @@ let calendarActivities = {
             mentor: 'Luis Jimenez'
         }],
         "Semana 5 front": [{
-            date: "15/04",
+            date: "29/07",
             topic: "Array, funciones y metodos de array",
             subthemes: [
                 ''
             ],
             mentor: 'charles'
         }, {
-            date: "16/04",
+            date: "30/07",
             topic: "Ejercicios metodos de array intro a filter",
             subthemes: [
                 'Retos con forEach¿ y map',
@@ -1089,7 +1085,7 @@ let calendarActivities = {
             ],
             mentor: 'David'
         }, {
-            date: "17/04",
+            date: "31/07",
             topic: "Ejercicios metodos funcionales de array, into a objetos",
             subthemes: [
                 "Retos forEach, map, filter",
@@ -1099,7 +1095,7 @@ let calendarActivities = {
             ],
             mentor: 'David'
         }, {
-            date: "18/04",
+            date: "01/08",
             topic: "Objetos y sus metodos",
             subthemes: [
                 "Retos de Objetos",
@@ -1109,14 +1105,14 @@ let calendarActivities = {
             ],
             mentor: 'David'
         }, {
-            date: "19/04",
+            date: "02/08",
             topic: "Inhabil",
             subthemes: [
                 ""
             ],
             mentor: ''
         }, {
-            date: "20/04",
+            date: "03/08",
             topic: "Inhabil",
             subthemes: [
                 ''
@@ -1124,7 +1120,7 @@ let calendarActivities = {
             mentor: ''
         }],
         "Semana 6 front": [{
-            date: "22/04",
+            date: "05/08",
             topic: "Intro a DOM y sus nodos",
             subthemes: [
                 "Reto, con array de objetos, funcion contructora y metodos",
@@ -1135,7 +1131,7 @@ let calendarActivities = {
             ],
             mentor: 'Michael'
         }, {
-            date: "23/04",
+            date: "06/08",
             topic: "JavaScript",
             subthemes: [
                 "Eventos",
@@ -1144,7 +1140,7 @@ let calendarActivities = {
             ],
             mentor: 'Michael'
         }, {
-            date: "24/04",
+            date: "07/08",
             topic: "JavaScript",
             subthemes: [
                 "Eventos DOM",
@@ -1152,7 +1148,7 @@ let calendarActivities = {
             ],
             mentor: 'Michael'
         }, {
-            date: "25/04",
+            date: "08/08",
             topic: "JavaScript INHABIL",
             subthemes: [
                 "AJAX",
@@ -1161,23 +1157,21 @@ let calendarActivities = {
             ],
             mentor: 'Michael'
         }, {
-            date: "26/04",
+            date: "09/08",
             topic: "Rally JS",
-            holyday:true,
             subthemes: [
                 "N/A"
             ],
             mentor: 'Michael'
         }, {
-            date: "27/04",
+            date: "10/08",
             topic: "NA",
-           	holyday:true,
             subthemes: [
                 "N/A"
             ]
         }],
         "Semana 7 front": [{
-            date: "29/04",
+            date: "12/08",
             topic: "JavaScript",
             subthemes: [
                 "AJAX, continuación",
@@ -1186,7 +1180,7 @@ let calendarActivities = {
             ],
             mentor: 'Michael'
         }, {
-            date: "30/04",
+            date: "13/08",
             topic: "JavaScript",
             subthemes: [
                 "Uso del estándar ES6",
@@ -1195,7 +1189,7 @@ let calendarActivities = {
             ],
             mentor: 'Michael'
         }, {
-            date: "01/05",
+            date: "14/08",
             topic: "JavaScript",
             holyday:true,
             subthemes: [
@@ -1206,21 +1200,21 @@ let calendarActivities = {
             ],
             mentor: 'Michael'
         }, {
-            date: "02/05",
+            date: "15/08",
             topic: "JavaScript",
             subthemes: [
                 "Ejercicios de lógica y aplicación de JS"
             ],
             mentor: 'Michael'
         }, {
-            date: "03/05",
+            date: "16/08",
             topic: "Desafío 2",
             subthemes: [
                 "Continuación de desafío con JS"
             ],
             mentor: 'Michael'
         }, {
-            date: "04/05",
+            date: "17/08",
             topic: "AWS",
             subthemes: [
                 "N/A"
@@ -1228,7 +1222,7 @@ let calendarActivities = {
             mentor: ''
         }],
         "Semana 8 front": [{
-            date: "06/05",
+            date: "19/08",
             topic: "JQuery",
             subthemes: [
                 "Teoría de JQuery",
@@ -1239,7 +1233,7 @@ let calendarActivities = {
             ],
             mentor: 'Isra'
         }, {
-            date: "07/05",
+            date: "20/08",
             topic: "JQuery",
             subthemes: [
                 "Creación de objetos JSON con JQuery",
@@ -1248,35 +1242,33 @@ let calendarActivities = {
             ],
             mentor: 'Isra'
         }, {
-            date: "08/05",
+            date: "21/08",
             topic: "IBM cloud deploy proyecto estatico",
             subthemes: [
                 "Deploy proyecto estatico"
             ],
             mentor: 'Charlie'
         }, {
-            date: "09/05",
+            date: "22/08",
             topic: "Desafío Módulo 1",
             subthemes: [
                 "N/A"
             ]
         }, {
-            date: "10/05",
+            date: "23/08",
             topic: "Inhabil",
-            holyday:true,
             subthemes: [
                 "N/A"
             ]
         }, {
-            date: "11/05",
+            date: "24/08",
             topic: "inhabil",
-            holyday:true,
             subthemes: [
                 "N/A"
             ]
         }],
         "Semana 9 Caro | Agile": [{
-            date: "13/05",
+            date: "26/08",
             topic: "Estructura del CV",
             subthemes: [
                 'Carta de presentación',
@@ -1285,7 +1277,7 @@ let calendarActivities = {
             ],
             mentor: 'Caro'
         }, {
-            date: "14/05",
+            date: "27/08",
             topic: "Competencias profesionales",
             subthemes: [
                 'Analisis FODA',
@@ -1294,7 +1286,7 @@ let calendarActivities = {
             ],
             mentor: 'Caro'
         }, {
-            date: "15/05",
+            date: "28/08",
             topic: "Busqueda de oportunidades laborales",
             subthemes: [
                 'Fuentes de reclutamiento',
@@ -1302,21 +1294,21 @@ let calendarActivities = {
             ],
             mentor: 'Caro'
         }, {
-            date: "16/05",
+            date: "29/08",
             topic: "Agile",
             subthemes: [
                 'Temario agile academy'
             ],
             mentor: 'Agile'
         }, {
-            date: "17/05",
+            date: "30/08",
             topic: "Agile",
             subthemes: [
                 'Temario agile academy'
             ],
             mentor: 'Agile'
         }, {
-            date: "18/05",
+            date: "31/08",
             topic: "Agile",
             subthemes: [
                 'Temario agile academy'
@@ -1324,14 +1316,14 @@ let calendarActivities = {
             mentor: 'Agile'
         }],
         "Semana 10 back": [{
-            date: "20/05",
+            date: "02/09",
             topic: "Agile",
             subthemes: [
                 'Temario agile academy'
             ],
             mentor: 'Agile'
         }, {
-            date: "21/05",
+            date: "03/09",
             topic: "La consola",
             subthemes: [
                 'Introduccion a linux',
@@ -1339,7 +1331,7 @@ let calendarActivities = {
             ],
             mentor: 'Manu'
         }, {
-            date: "22/05",
+            date: "04/09",
             topic: "La consola",
             subthemes: [
                 'bash',
@@ -1347,7 +1339,7 @@ let calendarActivities = {
             ],
             mentor: 'Manu'
         }, {
-            date: "23/05",
+            date: "05/09",
             topic: "Backend",
             subthemes: [
                 "Marco teórico Node.js",
@@ -1361,7 +1353,7 @@ let calendarActivities = {
             ],
             mentor: 'Charles'
         }, {
-            date: "24/05",
+            date: "06/09",
             topic: "Rally",
             subthemes: [
                 "Hola mundo en NODE",
@@ -1375,14 +1367,14 @@ let calendarActivities = {
             ],
             mentor: 'Charles'
         }, {
-            date: "25/05",
+            date: "07/09",
             topic: "XP",
             subthemes: [
                 ""
             ]
         }],
         "Semana 11 back": [{
-            date: "27/05",
+            date: "09/09",
             topic: "Backend",
             subthemes: [
                 "Callbacks",
@@ -1392,7 +1384,7 @@ let calendarActivities = {
             ],
             mentor: 'Charles'
         }, {
-            date: "28/05",
+            date: "10/09",
             topic: "Backend",
             subthemes: [
                 "Módulo HTTP",
@@ -1402,7 +1394,7 @@ let calendarActivities = {
             ],
             mentor: 'Manu'
         }, {
-            date: "29/05",
+            date: "11/09",
             topic: "Backend",
             subthemes: [
                 "CRUD con express (courses, mentors, koders)",
@@ -1411,7 +1403,7 @@ let calendarActivities = {
             ],
             mentor: 'Manu'
         }, {
-            date: "30/05",
+            date: "12/09",
             topic: "Backend",
             subthemes: [
                 "¿Qué son las bases de datos?",
@@ -1421,9 +1413,8 @@ let calendarActivities = {
                 "Ejemplo de una base de datos relacional con MySQL"
             ],
             mentor: 'Charles'
-
         }, {
-            date: "31/05",
+            date: "13/09",
             topic: "Back",
             subthemes: [
                 "Instalación de MongoDB",
@@ -1431,14 +1422,14 @@ let calendarActivities = {
             ],
             mentor: 'Charles'
         }, {
-            date: "01/06",
+            date: "14/09",
             topic: "XP",
             subthemes: [
                 "N/A"
             ]
         }],
         "Semana 12 back": [{
-            date: "03/06",
+            date: "16/09",
             topic: "Backend",
             subthemes: [
                 "Estructuración de un proyecto con Express y Mongodb.",
@@ -1447,7 +1438,7 @@ let calendarActivities = {
             ],
             mentor: 'Charles'
         }, {
-            date: "04/06",
+            date: "17/09",
             topic: "Backend",
             subthemes: [
                 "Mongoose (conexión a una base de datos)",
@@ -1456,7 +1447,7 @@ let calendarActivities = {
             ],
             mentor: 'Charles'
         }, {
-            date: "05/06",
+            date: "18/09",
             topic: "Backend",
             subthemes: [
                 "Middlewares",
@@ -1465,28 +1456,28 @@ let calendarActivities = {
             ],
             mentor: 'Charles'
         }, {
-            date: "06/06",
+            date: "19/09",
             topic: "Desafio Backend",
             subthemes: [
                 "Desafio back"
             ],
             mentor: 'Charles'
         }, {
-            date: "07/06",
+            date: "20/09",
             topic: "KODETON",
             subthemes: [
                 "Hackaton kodemia"
             ],
             mentor: 'Charles'
         }, {
-            date: "08/06",
+            date: "21/09",
             topic: "KODETON",
             subthemes: [
                 "Hackaton kodemia"
             ]
         }],
         "Semana 13 ": [{
-            date: "10/06",
+            date: "23/09",
             topic: "Pitch",
             subthemes: [
                 'Discurso',
@@ -1494,7 +1485,7 @@ let calendarActivities = {
             ],
             mentor: 'Caro'
         }, {
-            date: "11/06",
+            date: "24/09",
             topic: "IBM Cloud",
             subthemes: [
                 "Marco teórico de Cloud",
@@ -1508,34 +1499,34 @@ let calendarActivities = {
             ],
             mentor: 'Charlie'
         }, {
-            date: "12/06",
+            date: "25/09",
             topic: "IBM Cloud",
             subthemes: [
                 "Dev Ops: Automatización en la nube"
             ]
         }, {
-            date: "13/06",
+            date: "26/09",
             topic: "IBM Cloud",
             subthemes: [
                 "Cloudant: IBM NoSQL"
             ],
             mentor: 'Charlie'
         }, {
-            date: "14/06",
+            date: "27/09",
             topic: "IBM Cloud",
             subthemes: [
                 "Watson, Inteligencia Artificial aplicada"
             ],
             mentor: 'Charlie'
         }, {
-            date: "15/06",
+            date: "28/09",
             topic: "Descansaton",
             subthemes: [
                 "N/A"
             ]
         }],
         "Semana 14": [{
-            date: "17/06",
+            date: "30/09",
             topic: "ReactJS",
             subthemes: [
                 "Marco teórico MVC",
@@ -1543,7 +1534,7 @@ let calendarActivities = {
             ],
             mentor: 'Charles'
         }, {
-            date: "18/06",
+            date: "01/10",
             topic: "ReactJS",
             subthemes: [
                 "Paradigma reactivo en React",
@@ -1551,7 +1542,7 @@ let calendarActivities = {
             ],
             mentor: 'Charles'
         }, {
-            date: "19/06",
+            date: "02/10",
             topic: "ReactJS",
             subthemes: [
                 "Concepto de React",
@@ -1562,7 +1553,7 @@ let calendarActivities = {
             ],
             mentor: 'Charles'
         }, {
-            date: "20/06",
+            date: "03/10",
             topic: "ReactJS",
             subthemes: [
                 "Funciones en React, continuación",
@@ -1571,14 +1562,14 @@ let calendarActivities = {
             ],
             mentor: 'Charles'
         }, {
-            date: "21/06",
+            date: "04/10",
             topic: "Rally",
             subthemes: [
                 "N/A"
             ],
             mentor: 'Charles'
         }, {
-            date: "22/06",
+            date: "05/10",
             topic: "JAM stack",
             subthemes: [
                 "N/A"
@@ -1586,7 +1577,7 @@ let calendarActivities = {
             mentor: "Joe"
         }],
         "Semana 15": [{
-            date: "24/06",
+            date: "07/10",
             topic: "ReactJS",
             subthemes: [
                 "Life cycle",
@@ -1594,145 +1585,143 @@ let calendarActivities = {
             ],
             mentor: 'Charles'
         }, {
-            date: "25/06",
+            date: "08/10",
             topic: "ReactJS",
             subthemes: [
             	"N/A"
             ],
             mentor: 'Charles'
         }, {
-            date: "26/06",
+            date: "09/10",
             topic: "ReactJS",
             subthemes: [
             	"N/A"
             ],
             mentor: 'Charles'
         }, {
-            date: "27/06",
+            date: "10/10",
             topic: "ReactJS",
             subthemes: [
             	"N/A"
             ],
             mentor: 'Charles'
         }, {
-            date: "28/06",
+            date: "11/10",
             topic: "Rally",
             subthemes: [
                 "N/A"
             ],
             mentor: 'Charles'
         }, {
-            date: "29/06",
+            date: "12/10",
             topic: "Negocios en TI",
             subthemes: [
                 "N/A"
             ]
         }],
         "Semana 16": [{
-            date: "01/07",
+            date: "14/10",
             topic: "ReactJS",
             subthemes: [
             	"N/A"
             ],
             mentor: 'Charles'
         }, {
-            date: "02/07",
+            date: "15/10",
             topic: "ReactJS",
             subthemes : [
             	"N/A"
             ],
             mentor: 'Charles'
         }, {
-            date: "03/07",
+            date: "16/10",
             topic: "ReactJS",
             subthemes : [
             	"N/A"
             ]
-
         }, {
-            date: "04/07",
+            date: "17/10",
             topic: "ReactJS",
             subthemes : [
             	"N/A"
             ]
-
         }, {
-            date: "05/07",
+            date: "18/10",
             topic: "Rally",
             subthemes: [
                 "N/A"
             ]
         }, {
-            date: "06/07",
+            date: "19/10",
             topic: "Por definir",
             subthemes: [
                 "N/A"
             ]
         }],
         "Semana 17": [{
-            date: "08/07",
+            date: "21/10",
             topic: "Desafío Final",
             subthemes: [
                 "N/A"
             ]
         }, {
-            date: "09/07",
+            date: "22/10",
             topic: "Desafío Final",
             subthemes: [
                 "N/A"
             ]
         }, {
-            date: "10/07",
+            date: "23/10",
             topic: "Desafío Final",
             subthemes: [
                 "N/A"
             ]
         }, {
-            date: "11/07",
+            date: "24/10",
             topic: "Desafío Final",
             subthemes: [
                 "N/A"
             ]
         }, {
-            date: "12/07",
+            date: "25/10",
             topic: "Desafío Final",
             subthemes: [
                 "N/A"
             ]
         }, {
-            date: "13/07",
+            date: "26/10",
             topic: "Desafío Final",
             subthemes: [
                 "N/A"
             ]
         }],
         "Semana 18": [{
-            date: "15/07",
+            date: "28/10",
             topic: "Desafío Final",
             subthemes: [
                 "N/A"
 
             ]
         }, {
-            date: "16/07",
+            date: "29/10",
             topic: "Desafío Final",
             subthemes: [
                 "N/A"
             ]
         }, {
-            date: "17/07",
+            date: "30/10",
             topic: "Desafío Final",
             subthemes: [
                 "N/A"
             ]
         }, {
-            date: "18/07",
+            date: "31/10",
             topic: "Desafío Final",
             subthemes: [
                 "N/A"
             ]
         }, {
-            date: "19/07",
+            date: "01/11",
             topic: "Kodeawards",
             subthemes: [
                 ""

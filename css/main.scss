@@ -36,11 +36,19 @@ nav{
 			        &.saturday{
 			        	color:$kodemiaBlue;
 			        }		
-					&:hover{
-						color:white;
-						cursor:pointer;
-					}
 					.activities-wrapper{
+						.activity-item{
+							&.red-line{
+								background:rgba(255, 0, 0, .5);
+							}
+							&.blue-line{
+								background:rgba(0,0,255,.5);
+							}
+							&:hover{
+								color:white;
+								cursor:pointer;
+							}
+						}
 						.activity-title{
 							font-size: 16px;
     						white-space: normal;
