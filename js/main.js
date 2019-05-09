@@ -1,5 +1,4 @@
 $(document).ready(function() {
-    //console.log(monthsArray);
     fillGrid();
     fillActivities("bootcampMern1","red-line");
     fillActivities("bootcampVue1","blue-line");
@@ -8,7 +7,6 @@ $(document).ready(function() {
 const fillGrid = ()=>{
     $("#calendar-gantt .grid-wrapper").empty();
     monthsArray.forEach(function(value, index) {
-        //console.log(value);
         $("#calendar-gantt .grid-wrapper").append(`
             <div class="month-wrapper" data-month-name="${value.name}" data-month-index="${index}">
                 <h1 class="month-name">${value.name}</h1>
@@ -27,8 +25,8 @@ const fillGrid = ()=>{
             }
             $(`.month-wrapper:eq('${index}') .days-wrapper`).append(`
                     <div class="day-item" data-item-date=${dayString+"/"+value.monthNumber}>
-                        <span>${daysArray[dayIndex]}</span>  
-                        <span>${dayNumber}</span>
+                        <span class="p-2">${daysArray[dayIndex]}</span>  
+                        <span class="p-2">${dayNumber}</span>
                         <div class="activities-wrapper"></div>
                     </div>
                 `)
@@ -46,7 +44,6 @@ const fillGrid = ()=>{
 
 const fillActivities = (activityId, itemClass) => {
     $.each(calendarActivities[activityId], function(key, value) {
-        //console.log(value);
         value.forEach(function(value, index) {
             let assignedDate = value.date;
             let currentSubthemes = value.subthemes;
@@ -54,7 +51,7 @@ const fillActivities = (activityId, itemClass) => {
             console.log(value);
             console.log(currentSubthemes);
             $(".days-wrapper").find(`[data-item-date='${assignedDate}']`).find(".activities-wrapper").append(`
-                    <div class="activity-item ${itemClass}" data-activity-id="${activityId}" onclick="toggleDropDown(this)">
+                    <div class="activity-item p-2 ${itemClass}" data-activity-id="${activityId}" onclick="toggleDropDown(this)">
                         <h2 class="activity-title">${value.topic}</h2>
                         <ul class="activities-list"></ul>
                     </div>

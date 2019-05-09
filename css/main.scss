@@ -13,8 +13,14 @@ nav{
 	width:100%;
 	overflow-x: scroll;
 	height:calc(100vh - 110px);
-	border:1px solid red;
 	padding-left:200px;
+	.legend-wrapper{
+		position:fixed;
+		width:200px;
+		padding:20px;
+		left:10px;
+		top:130px;
+	}
 	.grid-wrapper{
 		display:flex;
 		.month-wrapper{
@@ -31,7 +37,6 @@ nav{
 				    border: 1px solid $kodemiaGreen;
 				    display: inline-block;
 				    width: 300px;	
-			        padding: 10px;
 			        min-height: 92px;
 			        &.saturday{
 			        	color:$kodemiaBlue;

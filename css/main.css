@@ -7,8 +7,14 @@ nav img {
   width: 100%;
   overflow-x: scroll;
   height: calc(100vh - 110px);
-  border: 1px solid red;
   padding-left: 200px;
+}
+#calendar-gantt .legend-wrapper {
+  position: fixed;
+  width: 200px;
+  padding: 20px;
+  left: 10px;
+  top: 130px;
 }
 #calendar-gantt .grid-wrapper {
   display: flex;
@@ -29,7 +35,6 @@ nav img {
   border: 1px solid #1bff00;
   display: inline-block;
   width: 300px;
-  padding: 10px;
   min-height: 92px;
 }
 #calendar-gantt .grid-wrapper .month-wrapper .days-wrapper .day-item.saturday {
